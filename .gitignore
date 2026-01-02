@@ -1,0 +1,43 @@
+####################################
+# KiCad temporary / local-only files
+####################################
+
+# Per-project local settings (not important to share)
+*.kicad_prl
+
+# Footprint info cache (regenerates)
+fp-info-cache
+
+# Autosave / backup files
+_autosave-*
+*~
+*.tmp
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+/TankHull/production/backups
+
+# KiCad backup folders (zip archives etc.)
+*-backups/
+
+# Lock files while a project is open
+~*.kicad_???.lck
+.~lock.*#
+
+############################
+# Generated/exported outputs
+############################
+
+# Netlists (if you export them)
+*.net
+
+# Autorouter files (if used)
+*.dsn
+*.ses
+
+# Recommended: put plot/gerber outputs into a folder and ignore it
+/outputs/
+/gerbers/
+/fabrication/
