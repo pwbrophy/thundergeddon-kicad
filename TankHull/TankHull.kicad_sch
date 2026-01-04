@@ -3030,46 +3030,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VishayLED:VSMB10940"
+		(symbol "Vishay IR Receiver:TSSP77038TR"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at -3.556 4.826 0)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "VSMB10940"
-				(at -3.556 -3.302 0)
+			(property "Value" "TSSP77038TR"
+				(at 20.32 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "VSMB10940:DIO_VSMB10940"
+			(property "Footprint" "TSSP77038TR_VIS"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.vishay.com/doc?82470"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -3083,133 +3082,39 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Vishay Semiconductor"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+			(property "ki_keywords" "TSSP77038TR"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "ki_fp_filters" "TSSP77038TR_VIS TSSP77038TR_VIS-M TSSP77038TR_VIS-L"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "VSMB10940"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "VISHAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "VSMB10940_0_0"
+			(symbol "TSSP77038TR_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.524) (xy -2.54 0)
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3218,10 +3123,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3230,10 +3135,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 -1.524)
+						(xy 33.02 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3242,249 +3147,66 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.524) (xy 0 0)
+						(xy 33.02 -10.16) (xy 33.02 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.1176 3.683) (xy -0.2286 4.1656)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9398 3.6068) (xy -0.7112 3.7592)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5588 3.2004) (xy -1.1176 3.683)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5588 3.2004) (xy -0.5334 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 3.937) (xy -0.6604 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2286 4.1656) (xy -2.0066 2.1336)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2286 4.1656) (xy -0.5588 3.2004)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.127 3.5814) (xy 1.016 4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3048 3.5052) (xy 0.5334 3.6576)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.6858 3.0988) (xy 0.127 3.5814)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.6858 3.0988) (xy 0.7112 3.8354)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.7112 3.8354) (xy 0.5842 3.8354)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 4.064) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 4.064) (xy 0.6858 3.0988)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "IR"
-					(at 1.016 2.032 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
+				(pin power_out line
+					(at 0 0 0)
+					(length 7.62)
+					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "~"
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VS"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4038,10 +3760,16 @@
 		(uuid "3bae76a7-57a2-45e1-afa1-d44a6bfee8fc")
 	)
 	(junction
-		(at 300.99 129.54)
+		(at 344.17 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44e8dfe8-a010-4c06-b5c3-9f061410d7d9")
+		(uuid "4091b191-a3e5-4609-a5ff-43159855fae3")
+	)
+	(junction
+		(at 344.17 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f15081f-e69f-4f97-bfb9-a6b95067b528")
 	)
 	(junction
 		(at 248.92 55.88)
@@ -4056,28 +3784,10 @@
 		(uuid "4f9ddfdc-a687-4c01-9e93-1245b31c3ca1")
 	)
 	(junction
-		(at 229.87 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53207d3b-6c80-473a-9219-8c5a5defeb8c")
-	)
-	(junction
 		(at 53.34 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef81a6a-3f18-4a0b-a744-b26dfc3e8b1a")
-	)
-	(junction
-		(at 190.5 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60b96c3f-2002-4dbe-b706-ac64629c4e23")
-	)
-	(junction
-		(at 260.35 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "617bb334-2434-4902-abac-aad42682aaf8")
 	)
 	(junction
 		(at 125.73 147.32)
@@ -4092,10 +3802,10 @@
 		(uuid "62f4e282-d8ff-4cac-8f06-6dc66cea3f9e")
 	)
 	(junction
-		(at 229.87 129.54)
+		(at 344.17 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67258771-ed32-473c-abd5-ebd92d5baf40")
+		(uuid "665e1751-ac35-4254-83ba-6202d16e0717")
 	)
 	(junction
 		(at 92.71 209.55)
@@ -4110,16 +3820,22 @@
 		(uuid "69b166d5-c4ed-4f94-882f-47976045bbe1")
 	)
 	(junction
+		(at 344.17 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72812cb2-64a9-499d-a572-014e48459e4b")
+	)
+	(junction
 		(at 260.35 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74f905e9-10c0-4a0f-9cf6-0ece87f7a253")
 	)
 	(junction
-		(at 300.99 152.4)
+		(at 344.17 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7872a09e-5fdb-4ea3-8831-b6cd21d2bc85")
+		(uuid "7bca89bf-8067-46f2-a3ad-a662c0881dec")
 	)
 	(junction
 		(at 162.56 52.07)
@@ -4140,10 +3856,10 @@
 		(uuid "86a63a7e-95d7-4413-8043-23a70867e1ed")
 	)
 	(junction
-		(at 300.99 140.97)
+		(at 344.17 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8844d52d-9b24-4c96-acf9-1977d0ec82f0")
+		(uuid "8ba19ae5-8888-4e29-aa40-7e5cf075859c")
 	)
 	(junction
 		(at 113.03 219.71)
@@ -4162,18 +3878,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "924d70c0-ded9-4934-9724-1aaa47c71c4c")
-	)
-	(junction
-		(at 190.5 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f3989ac-0487-4db4-bea4-d7a95ad4a3f7")
-	)
-	(junction
-		(at 229.87 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a163ff58-2687-42cc-99d4-aa58dde5eed6")
 	)
 	(junction
 		(at 53.34 154.94)
@@ -4206,6 +3910,12 @@
 		(uuid "c24d6fae-8a75-4ceb-8173-e29138133870")
 	)
 	(junction
+		(at 344.17 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0386089-0c52-4cc6-aa1c-f30d117d03ba")
+	)
+	(junction
 		(at 236.22 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4236,12 +3946,6 @@
 		(uuid "e59a2749-d1e1-4368-b757-9de0434cd897")
 	)
 	(junction
-		(at 273.05 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eab6c5e2-8a14-4ef8-8244-eec38076bb1a")
-	)
-	(junction
 		(at 248.92 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4266,22 +3970,16 @@
 		(uuid "edc6552f-cbea-4bac-911a-0510eaff0bf4")
 	)
 	(junction
-		(at 204.47 129.54)
+		(at 344.17 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1065253-7ed8-41d6-a3c2-bed23302205a")
+		(uuid "f101837e-9077-4d84-b595-eb241044c1f3")
 	)
 	(junction
 		(at 189.23 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3c15820-e929-445b-a665-f03875e8dae5")
-	)
-	(junction
-		(at 204.47 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7ec7aae-9a59-41df-b07e-8504287552b6")
 	)
 	(junction
 		(at 53.34 160.02)
@@ -4343,6 +4041,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 107.95) (xy 351.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b36698-68d6-43fe-9817-5018a94f00c9")
+	)
+	(wire
+		(pts
 			(xy 72.39 219.71) (xy 80.01 219.71)
 		)
 		(stroke
@@ -4353,26 +4061,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 229.87 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048d7cde-7ea8-4bfd-bc23-7c1f99e5e954")
-	)
-	(wire
-		(pts
-			(xy 190.5 132.08) (xy 190.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0592a245-7baa-45a8-a705-ee247cd27d6c")
-	)
-	(wire
-		(pts
 			(xy 100.33 162.56) (xy 135.89 162.56)
 		)
 		(stroke
@@ -4380,6 +4068,16 @@
 			(type default)
 		)
 		(uuid "05b91f8d-08c4-4893-a01c-120af42bca4d")
+	)
+	(wire
+		(pts
+			(xy 327.66 85.09) (xy 344.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05be51bb-b98a-4800-9010-d68273126c98")
 	)
 	(wire
 		(pts
@@ -4400,6 +4098,16 @@
 			(type default)
 		)
 		(uuid "088fd56f-0a74-4c7f-b8a7-cf41bc3c99b6")
+	)
+	(wire
+		(pts
+			(xy 337.82 67.31) (xy 351.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf45d46-8cc3-4bbd-aae8-3e7701cc4cf8")
 	)
 	(wire
 		(pts
@@ -4463,16 +4171,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 132.08) (xy 204.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c9664f-ad30-4850-af0b-bc9ea7bcb90e")
-	)
-	(wire
-		(pts
 			(xy 290.83 81.28) (xy 288.29 81.28)
 		)
 		(stroke
@@ -4480,16 +4178,6 @@
 			(type default)
 		)
 		(uuid "13ca9588-f6f6-4fb5-8b71-728d62a5bb9e")
-	)
-	(wire
-		(pts
-			(xy 190.5 114.3) (xy 190.5 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14dc4a54-0980-4ca7-86ee-1e5ee1dc65b6")
 	)
 	(wire
 		(pts
@@ -4523,26 +4211,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 190.5 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17de6425-983b-44ab-a836-6f2784330a6e")
-	)
-	(wire
-		(pts
-			(xy 190.5 129.54) (xy 195.58 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183913c4-f3f8-46a8-abb5-8775591628a0")
-	)
-	(wire
-		(pts
 			(xy 50.8 67.31) (xy 58.42 67.31)
 		)
 		(stroke
@@ -4550,6 +4218,16 @@
 			(type default)
 		)
 		(uuid "18b59f96-79c2-44e6-8652-a21e9fc99781")
+	)
+	(wire
+		(pts
+			(xy 351.79 35.56) (xy 344.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ee432e-78d5-430e-b1ee-0ed3d2a1e8e0")
 	)
 	(wire
 		(pts
@@ -4573,13 +4251,13 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 152.4) (xy 290.83 152.4)
+			(xy 351.79 100.33) (xy 351.79 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c589099-b27b-4d43-9da0-83850633b5f7")
+		(uuid "1cbdda08-03bb-455b-a594-c87974fbc8bf")
 	)
 	(wire
 		(pts
@@ -4663,6 +4341,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 110.49) (xy 351.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2571cf67-9911-4513-a9a6-c116052ae2dd")
+	)
+	(wire
+		(pts
 			(xy 38.1 234.95) (xy 38.1 243.84)
 		)
 		(stroke
@@ -4723,16 +4411,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 118.11) (xy 270.51 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3185b18a-6d8c-42a3-a6d7-c4460095c835")
-	)
-	(wire
-		(pts
 			(xy 161.29 233.68) (xy 161.29 246.38)
 		)
 		(stroke
@@ -4743,23 +4421,13 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 129.54) (xy 257.81 129.54)
+			(xy 327.66 36.83) (xy 327.66 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "355220ad-d54f-45e2-abfb-ce59b5ffa86a")
-	)
-	(wire
-		(pts
-			(xy 262.89 140.97) (xy 257.81 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3620696a-17eb-4c70-9074-44091ecdb84f")
+		(uuid "337f12dc-f278-4a18-815e-a256ac4d2429")
 	)
 	(wire
 		(pts
@@ -4833,26 +4501,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 167.64) (xy 222.25 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8f80f7-6d6b-4a04-b643-f3e99a8996f4")
-	)
-	(wire
-		(pts
-			(xy 260.35 152.4) (xy 262.89 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c62952-646e-4ca2-b967-721bc619ebcd")
-	)
-	(wire
-		(pts
 			(xy 194.31 217.17) (xy 201.93 217.17)
 		)
 		(stroke
@@ -4883,6 +4531,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 85.09) (xy 351.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44438829-8457-4bfd-856e-8722d4d10370")
+	)
+	(wire
+		(pts
 			(xy 245.11 58.42) (xy 248.92 58.42)
 		)
 		(stroke
@@ -4903,36 +4561,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 152.4) (xy 270.51 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e3d532-9178-4a88-b1b3-01bb979a3971")
-	)
-	(wire
-		(pts
-			(xy 300.99 140.97) (xy 300.99 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48272d08-f800-4011-95f0-f5cea351a69d")
-	)
-	(wire
-		(pts
-			(xy 260.35 158.75) (xy 265.43 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4990f5eb-4649-4dd3-a9b0-c5c8e41cb25d")
-	)
-	(wire
-		(pts
 			(xy 63.5 245.11) (xy 69.85 245.11)
 		)
 		(stroke
@@ -4950,6 +4578,26 @@
 			(type default)
 		)
 		(uuid "4c87875a-75cb-4666-bca6-3ab13bccfa98")
+	)
+	(wire
+		(pts
+			(xy 344.17 57.15) (xy 337.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e18a0e0-de9c-4d10-83cc-fbac4df3b76a")
+	)
+	(wire
+		(pts
+			(xy 327.66 107.95) (xy 344.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50114b11-01e3-4ea0-bc88-1ec5ed8a4617")
 	)
 	(wire
 		(pts
@@ -4983,16 +4631,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 152.4) (xy 260.35 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591d576e-8c90-4da5-b1c8-3ef78f07a0a8")
-	)
-	(wire
-		(pts
 			(xy 162.56 52.07) (xy 162.56 62.23)
 		)
 		(stroke
@@ -5010,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "5a5c2dd8-334b-4528-9746-7b3f4fed625f")
+	)
+	(wire
+		(pts
+			(xy 351.79 77.47) (xy 344.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae82ff9-ccaf-45e7-a45e-6a9597343483")
 	)
 	(wire
 		(pts
@@ -5040,16 +4688,6 @@
 			(type default)
 		)
 		(uuid "5debf2cb-17e2-4995-a571-ab7bdf8a0905")
-	)
-	(wire
-		(pts
-			(xy 185.42 129.54) (xy 190.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc6ccbc-8f99-4414-8f6e-4631570d4076")
 	)
 	(wire
 		(pts
@@ -5143,16 +4781,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 170.18) (xy 229.87 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a089294-e469-41cd-a64d-029f5b6f80b6")
-	)
-	(wire
-		(pts
 			(xy 240.03 55.88) (xy 248.92 55.88)
 		)
 		(stroke
@@ -5183,6 +4811,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 64.77) (xy 351.79 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1bc810-3c24-4812-86f3-f1d7eb5e2c4a")
+	)
+	(wire
+		(pts
 			(xy 240.03 53.34) (xy 240.03 55.88)
 		)
 		(stroke
@@ -5200,16 +4838,6 @@
 			(type default)
 		)
 		(uuid "7062c818-cb6f-49a7-9399-6f280bcf5ba8")
-	)
-	(wire
-		(pts
-			(xy 229.87 129.54) (xy 222.25 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a9a929-56ab-41f2-a6af-f904d78a5c9d")
 	)
 	(wire
 		(pts
@@ -5233,26 +4861,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 154.94) (xy 300.99 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7416ebfe-6e97-45e8-9385-b149d215cfba")
-	)
-	(wire
-		(pts
-			(xy 63.5 52.07) (xy 69.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742d80b6-5ddb-47a5-baf1-a4cd22710fe6")
-	)
-	(wire
-		(pts
 			(xy 48.26 52.07) (xy 50.8 52.07)
 		)
 		(stroke
@@ -5260,16 +4868,6 @@
 			(type default)
 		)
 		(uuid "744cb289-dc3d-497d-9763-d8f0e4f44ee7")
-	)
-	(wire
-		(pts
-			(xy 204.47 111.76) (xy 209.55 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "746b0410-f7ce-41b9-ada0-76fe090a8943")
 	)
 	(wire
 		(pts
@@ -5300,6 +4898,16 @@
 			(type default)
 		)
 		(uuid "75cca8f4-d481-4e84-9c66-84cd0d67241e")
+	)
+	(wire
+		(pts
+			(xy 351.79 57.15) (xy 351.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76aaa188-f117-463d-9c0c-36551a6a6124")
 	)
 	(wire
 		(pts
@@ -5340,16 +4948,6 @@
 			(type default)
 		)
 		(uuid "7d037d08-b3c7-4fba-9a11-d9a309a7404d")
-	)
-	(wire
-		(pts
-			(xy 229.87 147.32) (xy 229.87 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d2ff26e-75cc-4ec4-8103-797232f7c76b")
 	)
 	(wire
 		(pts
@@ -5433,16 +5031,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 190.5 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85573d88-fa73-482e-a9d2-9aabe7ddb036")
-	)
-	(wire
-		(pts
 			(xy 288.29 60.96) (xy 288.29 68.58)
 		)
 		(stroke
@@ -5463,16 +5051,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 129.54) (xy 209.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863563a0-ab11-4777-9da4-d3dcac439d15")
-	)
-	(wire
-		(pts
 			(xy 111.76 39.37) (xy 118.11 39.37)
 		)
 		(stroke
@@ -5490,16 +5068,6 @@
 			(type default)
 		)
 		(uuid "8662e12a-f21d-466a-8e5c-194469c5b443")
-	)
-	(wire
-		(pts
-			(xy 198.12 132.08) (xy 190.5 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "867ef146-1af7-470f-840a-491280cd4c11")
 	)
 	(wire
 		(pts
@@ -5533,16 +5101,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 147.32) (xy 195.58 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7faf6a-5399-4cb4-9b1d-b5c0afe931e1")
-	)
-	(wire
-		(pts
 			(xy 243.84 259.08) (xy 243.84 243.84)
 		)
 		(stroke
@@ -5573,6 +5131,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 64.77) (xy 344.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba452b3-a3c4-4711-a1dc-854cdbf08532")
+	)
+	(wire
+		(pts
 			(xy 109.22 152.4) (xy 100.33 152.4)
 		)
 		(stroke
@@ -5580,16 +5148,6 @@
 			(type default)
 		)
 		(uuid "8d2313af-a420-4f9c-bd09-f231634c7ede")
-	)
-	(wire
-		(pts
-			(xy 229.87 129.54) (xy 229.87 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6e4546-c6e9-480e-85e6-8ccd847ae108")
 	)
 	(wire
 		(pts
@@ -5663,6 +5221,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 100.33) (xy 344.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adcc702-0352-4805-9dea-f3568a824903")
+	)
+	(wire
+		(pts
 			(xy 54.61 127) (xy 54.61 123.19)
 		)
 		(stroke
@@ -5693,26 +5261,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 140.97) (xy 270.51 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27eeadb-34a0-4c37-9819-b2ffe9d175e5")
-	)
-	(wire
-		(pts
-			(xy 273.05 158.75) (xy 273.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2db4279-3e56-4a25-80ca-3b8c1175d025")
-	)
-	(wire
-		(pts
 			(xy 288.29 60.96) (xy 300.99 60.96)
 		)
 		(stroke
@@ -5730,16 +5278,6 @@
 			(type default)
 		)
 		(uuid "a37df4a9-aff8-4ae2-8f44-e99768dfebc2")
-	)
-	(wire
-		(pts
-			(xy 278.13 152.4) (xy 273.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4047e72-2e61-4fe6-b6f3-5b41ced10df2")
 	)
 	(wire
 		(pts
@@ -5783,16 +5321,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 129.54) (xy 270.51 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99bd367-959e-477c-8e3c-f1f02fd251bc")
-	)
-	(wire
-		(pts
 			(xy 53.34 152.4) (xy 53.34 154.94)
 		)
 		(stroke
@@ -5820,16 +5348,6 @@
 			(type default)
 		)
 		(uuid "ad3e0f45-f5cb-4bb0-a034-3bf03df3f115")
-	)
-	(wire
-		(pts
-			(xy 203.2 147.32) (xy 209.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad3fea7e-2f49-457c-87c4-abae15cf79fc")
 	)
 	(wire
 		(pts
@@ -5903,16 +5421,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 147.32) (xy 222.25 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a013c3-b9d6-4bbe-96e9-936ff9a8d31b")
-	)
-	(wire
-		(pts
 			(xy 232.41 55.88) (xy 240.03 55.88)
 		)
 		(stroke
@@ -5920,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "b0a8e361-65a4-4fcf-a9bb-fb75e05bb811")
+	)
+	(wire
+		(pts
+			(xy 327.66 43.18) (xy 344.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1785ef9-107b-4b6a-bb1a-5a10fc0dd71f")
 	)
 	(wire
 		(pts
@@ -5953,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 57.15) (xy 344.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ecae4f-c455-4810-94c4-4f95e7377f19")
+	)
+	(wire
+		(pts
 			(xy 270.51 41.91) (xy 260.35 41.91)
 		)
 		(stroke
@@ -5960,26 +5488,6 @@
 			(type default)
 		)
 		(uuid "b608750b-ed18-425b-9800-be4c81d98be6")
-	)
-	(wire
-		(pts
-			(xy 267.97 158.75) (xy 273.05 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7fcdd1e-ceca-4158-be5d-c1c59639f149")
-	)
-	(wire
-		(pts
-			(xy 300.99 129.54) (xy 300.99 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b84c7b81-20dc-4883-b382-3bbd6e606d27")
 	)
 	(wire
 		(pts
@@ -6073,16 +5581,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 167.64) (xy 209.55 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a2defb-a4ba-4ff6-99b1-690318cdd50d")
-	)
-	(wire
-		(pts
 			(xy 53.34 149.86) (xy 53.34 152.4)
 		)
 		(stroke
@@ -6123,16 +5621,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 158.75) (xy 260.35 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc51e549-35e4-41c6-895d-ebc7573f052e")
-	)
-	(wire
-		(pts
 			(xy 109.22 132.08) (xy 100.33 132.08)
 		)
 		(stroke
@@ -6143,6 +5631,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 77.47) (xy 337.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22b6454-c2ae-41dc-9e50-11a45f82d102")
+	)
+	(wire
+		(pts
 			(xy 44.45 129.54) (xy 64.77 129.54)
 		)
 		(stroke
@@ -6150,26 +5648,6 @@
 			(type default)
 		)
 		(uuid "d24b508b-1343-43d1-a90f-c5018641b19d")
-	)
-	(wire
-		(pts
-			(xy 204.47 114.3) (xy 204.47 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d79cb3-7c44-4fdb-8914-3c19336dd5d7")
-	)
-	(wire
-		(pts
-			(xy 203.2 111.76) (xy 204.47 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63703f5-d79e-454f-ba98-2bccdb330554")
 	)
 	(wire
 		(pts
@@ -6193,16 +5671,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 118.11) (xy 257.81 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3a2e5c-55fe-4825-a477-6d8098051184")
-	)
-	(wire
-		(pts
 			(xy 64.77 162.56) (xy 53.34 162.56)
 		)
 		(stroke
@@ -6210,26 +5678,6 @@
 			(type default)
 		)
 		(uuid "e1192ee7-c175-4c18-96b3-af44ea5f83db")
-	)
-	(wire
-		(pts
-			(xy 229.87 111.76) (xy 222.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e7d9b7-779a-4296-a23e-72d61dea3e2b")
-	)
-	(wire
-		(pts
-			(xy 189.23 167.64) (xy 195.58 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ef521f-7ea8-4898-8dec-7d7ce2f0d01b")
 	)
 	(wire
 		(pts
@@ -6333,6 +5781,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 77.47) (xy 351.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6aadee-0630-447b-aa8a-99eb3163c354")
+	)
+	(wire
+		(pts
+			(xy 351.79 35.56) (xy 351.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf6766e-3b7b-45d5-bd7c-cda422ce7531")
+	)
+	(wire
+		(pts
 			(xy 43.18 209.55) (xy 52.07 209.55)
 		)
 		(stroke
@@ -6340,16 +5808,6 @@
 			(type default)
 		)
 		(uuid "ec5d05d6-9ff9-4597-b6b5-fb434c00b10d")
-	)
-	(wire
-		(pts
-			(xy 204.47 114.3) (xy 200.66 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecaa02b1-98a8-44f0-b55d-459ad2aad504")
 	)
 	(wire
 		(pts
@@ -6363,13 +5821,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 198.12 114.3)
+			(xy 337.82 45.72) (xy 351.79 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eef4dca2-7852-41ec-8c46-0dfe3f3277bc")
+		(uuid "ed9a4fa8-6b28-41d0-8384-2f3b48f90107")
+	)
+	(wire
+		(pts
+			(xy 344.17 43.18) (xy 351.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee904ea9-0916-4f50-af7c-5aac4bda0efc")
 	)
 	(wire
 		(pts
@@ -6403,16 +5871,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 129.54) (xy 290.83 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f25ca7a3-d258-4b68-ba1c-7304edfb99d5")
-	)
-	(wire
-		(pts
 			(xy 248.92 55.88) (xy 252.73 55.88)
 		)
 		(stroke
@@ -6420,6 +5878,16 @@
 			(type default)
 		)
 		(uuid "f397482f-866c-49e9-ab04-faf7160c2213")
+	)
+	(wire
+		(pts
+			(xy 337.82 87.63) (xy 351.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7006c3a-088e-4ac1-8786-966a8a58f554")
 	)
 	(wire
 		(pts
@@ -6453,16 +5921,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 118.11) (xy 300.99 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0a3dd1-7ade-4930-b854-a8569a01eabd")
-	)
-	(wire
-		(pts
 			(xy 254 38.1) (xy 248.92 38.1)
 		)
 		(stroke
@@ -6473,43 +5931,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 132.08) (xy 204.47 132.08)
+			(xy 344.17 35.56) (xy 337.82 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fccb805c-1d25-4f79-bcec-f1deaa7e53ce")
+		(uuid "fc5433ba-7fd9-4e7f-bf00-a4ee88e528d8")
 	)
 	(wire
 		(pts
-			(xy 300.99 140.97) (xy 290.83 140.97)
+			(xy 344.17 100.33) (xy 337.82 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe89d314-2baf-44ec-8cf7-0a578569543d")
-	)
-	(wire
-		(pts
-			(xy 300.99 118.11) (xy 290.83 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb87330-a9d2-4101-b8d0-90dc8920d81c")
-	)
-	(wire
-		(pts
-			(xy 203.2 129.54) (xy 204.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8b106f-87df-48ba-a853-78a20f64a0c1")
+		(uuid "fc5c142b-4ea8-47a0-b0f7-a8ef34aba577")
 	)
 	(label "Motors Sleep"
 		(at 190.5 226.06 180)
@@ -6541,36 +5979,6 @@
 		)
 		(uuid "19c85c5e-49cd-4041-8389-0657f3d4b846")
 	)
-	(label "IR Transmit NE"
-		(at 257.81 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "20449d57-56d5-4ef7-bd56-b903e29a05cb")
-	)
-	(label "IR Transmit S"
-		(at 257.81 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2db80b1f-50d0-4cda-a1a0-612b40f8ef97")
-	)
-	(label "IR Transmit NW"
-		(at 185.42 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2edc1b54-c8da-4ba1-8e32-1d2fc2f5228f")
-	)
 	(label "Right Motor Control 2"
 		(at 109.22 129.54 0)
 		(effects
@@ -6590,16 +5998,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c1b4789-1038-4e15-b5e4-e6050b2b17c0")
-	)
-	(label "IR Transmit W"
-		(at 185.42 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cc68a6b-99fd-406d-a4ed-bad693c02430")
 	)
 	(label "Right Drive Motor 2"
 		(at 100.33 247.65 0)
@@ -6621,7 +6019,7 @@
 		)
 		(uuid "5ab8f53e-8ca7-4563-bc67-ebdebce48466")
 	)
-	(label "IR Transmit E"
+	(label "IR Receive E"
 		(at 109.22 137.16 0)
 		(effects
 			(font
@@ -6640,6 +6038,16 @@
 			(justify left bottom)
 		)
 		(uuid "6932b978-6971-442f-91e0-b642e4c77cc3")
+	)
+	(label "IR Receive SE"
+		(at 337.82 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a1bb5d9-bd03-4735-848f-f22eae790d5c")
 	)
 	(label "OE"
 		(at 60.96 134.62 0)
@@ -6681,7 +6089,7 @@
 		)
 		(uuid "844f3abd-6824-4920-98df-0156e7c61f16")
 	)
-	(label "IR Transmit N"
+	(label "IR Receive N"
 		(at 109.22 132.08 0)
 		(effects
 			(font
@@ -6701,7 +6109,7 @@
 		)
 		(uuid "98b376ec-97c7-4821-bd26-8e631459ddfd")
 	)
-	(label "IR Transmit NE"
+	(label "IR Receive NE"
 		(at 109.22 134.62 0)
 		(effects
 			(font
@@ -6741,7 +6149,7 @@
 		)
 		(uuid "aea6da00-5267-4744-a152-6c2ffcf30589")
 	)
-	(label "IR Transmit SE"
+	(label "IR Receive SE"
 		(at 140.97 139.7 0)
 		(effects
 			(font
@@ -6761,16 +6169,6 @@
 		)
 		(uuid "b13fb440-071e-4e55-937d-e2c16ce2cb4c")
 	)
-	(label "IR Transmit SW"
-		(at 189.23 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b40e4f51-4c7b-41a9-b8d7-0855b8d8cf20")
-	)
 	(label "Right Motor Control 1"
 		(at 63.5 247.65 180)
 		(effects
@@ -6781,15 +6179,15 @@
 		)
 		(uuid "b4f07fc8-ccf1-46ee-81ba-c6f7b1d73bfb")
 	)
-	(label "IR Transmit E"
-		(at 257.81 140.97 180)
+	(label "IR Receive NE"
+		(at 337.82 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "bd8434e3-5bf5-4c3a-9dc7-7d3d33029059")
+		(uuid "ba2a3acf-5e64-4b0e-90ce-f87af4836e74")
 	)
 	(label "Left Drive Motor 1"
 		(at 223.52 243.84 0)
@@ -6811,16 +6209,6 @@
 		)
 		(uuid "c4b96534-bc32-4b42-b875-21744463a492")
 	)
-	(label "OE"
-		(at 69.85 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c65d48e3-97fc-43c0-b315-0decaec4f06a")
-	)
 	(label "Turret Motor Control 2"
 		(at 109.22 154.94 0)
 		(effects
@@ -6840,6 +6228,26 @@
 			(justify right bottom)
 		)
 		(uuid "c87766c4-9d18-453a-8d32-9574453fef80")
+	)
+	(label "IR Receive E"
+		(at 337.82 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca75be39-8bfb-4a79-8b89-449736357991")
+	)
+	(label "IR Receive N"
+		(at 337.82 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc00b92c-15a8-49a2-b81a-c69eaa1e2952")
 	)
 	(label "Left Drive Motor 2"
 		(at 223.52 246.38 0)
@@ -6900,26 +6308,6 @@
 			(justify left bottom)
 		)
 		(uuid "e35d29e6-6b0c-4f1b-99cf-4b58f72c814d")
-	)
-	(label "IR Transmit SE"
-		(at 257.81 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5a32b4d-9a6a-4ccc-b1e6-1a44517293e3")
-	)
-	(label "IR Transmit N"
-		(at 185.42 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee36c9e0-cff9-4428-b839-56affbff357b")
 	)
 	(label "Turret Motor Control 2"
 		(at 186.69 246.38 180)
@@ -7137,83 +6525,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 200.66 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "09e1607d-2777-4f1c-934b-efa6b78ab70f")
-		(property "Reference" "J9"
-			(at 193.04 134.112 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 177.546 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "354c649b-e06a-4717-b2cb-a4d82d3aedd6")
-		)
-		(pin "2"
-			(uuid "b5479639-de3d-49aa-8958-502bd743149e")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7456,6 +6767,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 344.17 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f46d0ce-f2d9-422a-b684-55ef67bb0e30")
+		(property "Reference" "C19"
+			(at 345.44 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 342.9 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 345.1352 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 344.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 386.842 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 387.604 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 383.286 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1aa306-5d5d-4c4b-9d3c-78a95c22078a")
+		)
+		(pin "2"
+			(uuid "1ba455d5-916a-42de-aa9f-bb19d79b21af")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 219.71 0)
 		(unit 1)
@@ -7516,6 +6921,102 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 327.66 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10224478-2794-4f85-a829-e9fea760f06b")
+		(property "Reference" "C17"
+			(at 319.786 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 318.77 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 326.6948 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 327.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C16780"
+			(at 326.644 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung "
+			(at 330.2 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C16780"
+			(at 326.644 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dafe3286-a25b-4ce0-890c-1a0f3487f059")
+		)
+		(pin "2"
+			(uuid "d45a925f-52f6-48df-8ee5-1cd2b33decba")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7604,7 +7105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9685PW"
+		(property "Value" "PCA9555PW"
 			(at 84.6933 121.92 0)
 			(effects
 				(font
@@ -7613,7 +7114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm"
 			(at 83.185 169.545 0)
 			(effects
 				(font
@@ -7623,7 +7124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -7632,7 +7133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+		(property "Description" "16-bit I2 C-bus and SMBus I/O port with interrupt"
 			(at 82.55 144.78 0)
 			(effects
 				(font
@@ -7641,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2678753"
+		(property "JLCPCB Part #" "C128392"
 			(at 119.888 106.172 0)
 			(effects
 				(font
@@ -7659,7 +7160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PCA9685PW,118"
+		(property "Manufacturer_Part_Number" "PCA9555PW,118"
 			(at 118.618 115.57 0)
 			(effects
 				(font
@@ -7762,100 +7263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a88c444-2417-417b-b1f3-9f07f0853de5")
-		(property "Reference" "R7"
-			(at 199.39 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 199.39 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 127.762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 199.39 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 208.788 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 208.788 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 208.788 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1557f847-7a8c-44c5-9e87-a6164748f690")
-		)
-		(pin "2"
-			(uuid "b1d5081b-c750-4763-9d97-2670140c727e")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 257.81 0)
 		(unit 1)
@@ -7916,212 +7323,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 285.75 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d04f516-6e7f-4887-a426-a390e6660dd1")
-		(property "Reference" "D8"
-			(at 284.5187 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 284.5187 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 285.496 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 286.004 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "da51d0b2-012e-44ee-86ad-0eceb775b38d")
-		)
-		(pin "A"
-			(uuid "b0008c7c-7f88-49c8-8e63-46f29a1302fd")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8288,6 +7489,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Vishay IR Receiver:TSSP77038TR")
+		(at 351.79 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1147e5-20d1-41b8-9a4d-270b42f978cf")
+		(property "Reference" "U6"
+			(at 386.08 83.8199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSSP77038TR"
+			(at 386.08 86.3599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
+			(at 351.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?82470"
+			(at 351.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 351.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C499566"
+			(at 351.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "030e2b8e-4f29-47b8-a5ca-0096132cf037")
+		)
+		(pin "3"
+			(uuid "ac39eee0-0ee9-4e0b-bbc8-30975b8aab8c")
+		)
+		(pin "1"
+			(uuid "f4a5dda0-9d81-4c76-bad9-855ed8ea54fb")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 205.74 217.17 90)
 		(unit 1)
@@ -8382,32 +7667,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 167.64 270)
+		(lib_id "Vishay IR Receiver:TSSP77038TR")
+		(at 351.79 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2d540866-91fa-4d69-89d4-0f494ded56e8")
-		(property "Reference" "R9"
-			(at 199.39 161.29 90)
+		(fields_autoplaced yes)
+		(uuid "30f63d11-2448-457a-9377-461fff43dafb")
+		(property "Reference" "U5"
+			(at 386.08 63.4999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSSP77038TR"
+			(at 386.08 66.0399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
+			(at 351.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "330RΩ"
-			(at 199.39 163.83 90)
+		(property "Datasheet" "https://www.vishay.com/doc?82470"
+			(at 351.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 165.862 90)
+		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 351.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,61 +7723,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 199.39 167.64 0)
+		(property "JLCPCB" "C499566"
+			(at 351.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 199.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 209.042 175.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 209.042 175.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 209.042 175.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98ad2518-6517-4f9d-912e-ee05c867562e")
 		)
 		(pin "2"
-			(uuid "5e427a9b-2056-4e17-bbce-ff36ec32d106")
+			(uuid "20ff24e4-4407-4302-bd2c-f22c3223e10f")
+		)
+		(pin "3"
+			(uuid "53cbade6-b43a-40b8-96d7-abc129927343")
+		)
+		(pin "1"
+			(uuid "dcb6bc21-5cf9-4a8c-a524-d2be9b85d844")
 		)
 		(instances
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9202,6 +8477,259 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 327.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44882b98-11ff-4366-98f6-8e53f5f167aa")
+		(property "Reference" "#PWR036"
+			(at 327.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_HULL"
+			(at 327.66 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 327.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2333ad10-4a31-4c1c-b934-a13d20822c6c")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 344.17 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "472ca3c9-8010-40ae-b360-89daf9f6352b")
+		(property "Reference" "C16"
+			(at 345.44 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 342.9 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 345.1352 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 344.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 386.842 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 387.604 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 383.286 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67ac6b18-d8e1-431c-8b72-17e6da6d7704")
+		)
+		(pin "2"
+			(uuid "c511e190-cf2a-4657-8151-7aef25db85b5")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 344.17 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47b2d4b1-7f99-4a20-9229-333d31a0f7f7")
+		(property "Reference" "C20"
+			(at 345.44 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 342.9 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 345.1352 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 344.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 386.842 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 387.604 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 383.286 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f997a2d9-c3a2-42b9-b8a0-d6ea51f35b25")
+		)
+		(pin "2"
+			(uuid "b8166c63-9c7d-4b80-901d-697e22ca999f")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 274.32 41.91 270)
 		(unit 1)
@@ -9449,6 +8977,100 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 344.17 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c3197eb-2744-4394-929c-509b14ad8f96")
+		(property "Reference" "C18"
+			(at 345.44 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 342.9 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 345.1352 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 344.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 386.842 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 387.604 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 383.286 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ad454d-4733-4817-84a7-b94f5a3585f8")
+		)
+		(pin "2"
+			(uuid "bec144bd-61cb-4829-af7c-54016d800b09")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10033,72 +9655,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d5d5f1e-edca-4f6c-9c10-a417582a16c7")
-		(property "Reference" "#PWR028"
-			(at 229.87 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f0ca9f1-275b-4069-879d-0d32fd174a8e")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 300.99 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10180,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Value" "SlipRing_6"
+		(property "Value" "SlipRing_4"
 			(at 57.15 43.18 0)
 			(effects
 				(font
@@ -10188,7 +9744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 55.88 49.53 0)
 			(effects
 				(font
@@ -10206,7 +9762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1x6P 6P XH 1 Tin 2.5mm 6 -25℃~+85℃ Brass 3A Direct Insert Plugin,P=2.5mm Wire To Board Connector ROHS"
+		(property "Description" "-25℃~+85℃ 1 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 XH Plugin,P=2.5mm Wire To Board Connector ROHS"
 			(at 55.88 49.53 0)
 			(effects
 				(font
@@ -10215,7 +9771,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2908604"
+		(property "JLCPCB Part #" "C2908602"
 			(at 73.406 38.1 0)
 			(effects
 				(font
@@ -10233,7 +9789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XH-6A"
+		(property "Manufacturer_Part_Number" "XH-4A"
 			(at 73.152 42.164 0)
 			(effects
 				(font
@@ -10402,289 +9958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 285.75 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a11b0f9-3e8d-4657-b2c3-3deccdb7a4f9")
-		(property "Reference" "D7"
-			(at 284.5187 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 284.5187 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 285.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 301.244 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 300.482 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "6b0accd3-c1cf-44e1-851d-61d78812d398")
-		)
-		(pin "A"
-			(uuid "621deaca-ee71-470e-af2a-15a9859e49c1")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 200.66 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6ac7f1a3-7821-4a5d-aa57-f9d5e04bdcba")
-		(property "Reference" "J8"
-			(at 193.04 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 177.546 118.872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95dc71f7-3923-4ebb-91b9-fa6443a7ea8e")
-		)
-		(pin "2"
-			(uuid "166994ee-1004-4b0a-9179-3e8bde6283d5")
-		)
-		(instances
-			(project ""
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 116.84 219.71 0)
 		(unit 1)
@@ -10810,212 +10083,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 217.17 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7353ec6f-a903-41ff-9d3c-66e23259bc3b")
-		(property "Reference" "D3"
-			(at 215.9387 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 215.9387 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 217.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 208.28 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 207.772 173.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "e3c9af5d-3f11-4422-9010-7760585e9d37")
-		)
-		(pin "A"
-			(uuid "6ccb7048-c2c0-4129-aed7-6a8a618eb7e5")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11648,6 +10715,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 337.82 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "865d4e7f-243a-4e3f-b7c2-c19a32f73e2c")
+		(property "Reference" "#PWR035"
+			(at 337.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39b0d81a-e122-42d5-821a-eca2b2e83ef6")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 173.99 209.55 270)
 		(unit 1)
@@ -11736,212 +10869,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 285.75 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87510e44-6f8f-41cd-9ae0-34b326dfbc4a")
-		(property "Reference" "D5"
-			(at 284.5187 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 284.5187 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 285.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 299.466 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 300.482 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "fff51521-d042-484a-910e-97017793ee14")
-		)
-		(pin "A"
-			(uuid "abf6e029-9dd8-4b03-bd42-ad649b338c16")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12300,72 +11227,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 300.99 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92f699ed-d290-4d54-9309-3eee2b527b75")
-		(property "Reference" "#PWR038"
-			(at 300.99 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 300.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 300.99 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "597b0ad0-4167-43bc-8315-e6e5bf8d7da2")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 161.29 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12425,100 +11286,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "997228f4-658a-450c-ae42-c8ac36a0a579")
-		(property "Reference" "R11"
-			(at 266.7 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 266.7 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 266.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 300.228 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 299.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 300.228 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c65a2c6-b2ac-4e36-8b24-482912179cba")
-		)
-		(pin "2"
-			(uuid "f8b6d9cd-37fb-4e92-9aa8-9713845b6113")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12594,194 +11361,6 @@
 			(project ""
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9dcf9da4-ddcf-49c6-b7aa-950041b2c607")
-		(property "Reference" "R13"
-			(at 266.7 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 266.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 266.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 300.482 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 300.482 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 300.482 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6832675b-b8bd-400b-a452-8c180a15d261")
-		)
-		(pin "2"
-			(uuid "11a5e7d1-3f40-40a8-ba3a-d1d20d2ce484")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a03589a9-f160-43f2-a78a-84103e86f05d")
-		(property "Reference" "R12"
-			(at 266.7 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 266.7 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 127.762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 300.736 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 300.736 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 300.736 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c4e5866-d008-47d8-9d17-cd2f3cfd3dc2")
-		)
-		(pin "2"
-			(uuid "cd9ea285-196e-4925-8b15-366943c87922")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12913,6 +11492,90 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vishay IR Receiver:TSSP77038TR")
+		(at 351.79 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a212d176-f01e-43d2-85a7-56d0a872dd30")
+		(property "Reference" "U4"
+			(at 386.08 41.9099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSSP77038TR"
+			(at 386.08 44.4499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
+			(at 351.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?82470"
+			(at 351.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 351.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C499566"
+			(at 351.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2226bf7b-1c86-40c9-947c-86a2931a1351")
+		)
+		(pin "3"
+			(uuid "86e08eca-074a-4edd-9a4c-e9d52c7efb26")
+		)
+		(pin "1"
+			(uuid "f9b7a4e8-85d0-49bb-9e3b-6129649d6c2c")
+		)
+		(instances
+			(project ""
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13145,212 +11808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 217.17 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7300767-6b12-43bb-8d61-4183d9b08992")
-		(property "Reference" "D1"
-			(at 215.9387 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 215.9387 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 234.442 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 234.188 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "af8eec19-557d-48f7-acec-348b5acf95df")
-		)
-		(pin "A"
-			(uuid "6ffd1aa8-7248-4970-8188-b43fdb50dce8")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 55.88 209.55 270)
 		(unit 1)
@@ -13541,383 +11998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad2d7e3f-918c-4a99-b3c7-bc62a06d7280")
-		(property "Reference" "R10"
-			(at 199.39 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 199.39 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 109.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 208.788 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 208.788 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 208.788 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f74405d2-d44a-43bc-9b73-a606fa317793")
-		)
-		(pin "2"
-			(uuid "9d563423-dd08-451d-9b65-60e7c5d2dfb0")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 217.17 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adfedd27-434d-4802-8957-64545f79eda6")
-		(property "Reference" "D4"
-			(at 215.9387 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 215.9387 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 234.442 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 234.696 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "858107a7-681f-44fb-adc4-9141d332e096")
-		)
-		(pin "A"
-			(uuid "c8b537ae-8857-48d2-851f-e18e9a866bd8")
-		)
-		(instances
-			(project ""
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 267.97 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "af613407-163a-49df-bcab-27baa877996c")
-		(property "Reference" "J10"
-			(at 260.35 160.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 244.856 163.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3259bc37-0826-411e-b140-cdf9a414b0ab")
-		)
-		(pin "2"
-			(uuid "13ef649b-0ee8-4908-9ddc-795a550620ab")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 76.2 111.76 90)
 		(unit 1)
@@ -14071,212 +12151,6 @@
 			(project ""
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 217.17 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b86e632c-d8cc-45de-97cf-eff806bcc9e2")
-		(property "Reference" "D2"
-			(at 215.9387 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 215.9387 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 217.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 235.966 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "01605e83-0a01-4285-bfe4-9042b7d6bf12")
-		)
-		(pin "A"
-			(uuid "d3c3e5c2-7212-4f92-8fa8-d3c229d012c6")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15155,100 +13029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 199.39 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d393e5aa-a890-4e4f-9f88-d68bd2b62003")
-		(property "Reference" "R8"
-			(at 199.39 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 199.39 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 145.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 199.39 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 209.042 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 209.042 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 209.042 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef000b6e-2ba2-4f37-8a49-fafeb05809f4")
-		)
-		(pin "2"
-			(uuid "1de55305-b9d3-4ca9-a5e4-bad8b3449b32")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 162.56 66.04 0)
 		(unit 1)
@@ -15339,100 +13119,6 @@
 			(project ""
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 152.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1880a0c-db3f-4db3-9955-b7ef01dc9a75")
-		(property "Reference" "R14"
-			(at 266.7 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330RΩ"
-			(at 266.7 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 150.622 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23138"
-			(at 300.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 300.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF3300T5E"
-			(at 300.482 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c264c3cc-5306-4953-acdb-15c29e2d1829")
-		)
-		(pin "2"
-			(uuid "9cd1ff07-d4a7-4b8c-a42d-d4bca26a2499")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -16186,6 +13872,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Vishay IR Receiver:TSSP77038TR")
+		(at 351.79 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a9d5b7-4cac-41be-b4ab-96033dd30bb9")
+		(property "Reference" "U7"
+			(at 386.08 106.6799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSSP77038TR"
+			(at 386.08 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
+			(at 351.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?82470"
+			(at 351.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 351.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C499566"
+			(at 351.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "477b57d4-036a-4e05-a8ff-2976f838920b")
+		)
+		(pin "3"
+			(uuid "71cb24e8-985c-4e29-abf9-e85fba010143")
+		)
+		(pin "1"
+			(uuid "916dea06-6f05-4412-b7e4-a6b0a76905e8")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 248.92 68.58 180)
 		(unit 1)
@@ -16276,212 +14046,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VishayLED:VSMB10940")
-		(at 285.75 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fea0a1e9-077c-4e9e-b902-45bf1f85c1ae")
-		(property "Reference" "D6"
-			(at 284.5187 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSMB10940"
-			(at 284.5187 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thundergeddon:DIO_VSMB10940"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/84170/vsmb10940.pdf"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mW/sr@20mA 150° 1.3V 940nm SMD-3P,2x3mm Infrared LED Emitters ROHS"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=eda"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VSMB10940/Vishay/view-part/?ref=snap"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "VSMB10940"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 940nm 1.3V 65mA 1mW/sr @ 20mA 150° 2-SMD, No Lead"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "VISHAY"
-			(at 285.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C4749241"
-			(at 300.228 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VSMB10940"
-			(at 300.228 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "a9a9db82-8f6c-424e-8a04-40bf12c4242f")
-		)
-		(pin "A"
-			(uuid "b3dfc087-7e6b-4c99-bfb6-e938d3b79cb5")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "D6")
 					(unit 1)
 				)
 			)
