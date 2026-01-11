@@ -2159,6 +2159,297 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Everlight IR Receiver:IRM-V838M3_TR1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IRM-V838M3_TR1"
+				(at -5.08 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "IRM-V838M3_TR1:XDCR_IRM-V838M3_TR1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Everlight Electronics Co Ltd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" "ANA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" "RODRIGO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "IRM-V838M3/TR1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Everlight"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "IRM-V838M3_TR1_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:PCA9555PW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2897,190 +3188,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Vishay IR Receiver:TSSP77038TR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TSSP77038TR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TSSP77038TR_VIS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?82470"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TSSP77038TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSSP77038TR_VIS TSSP77038TR_VIS-M TSSP77038TR_VIS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TSSP77038TR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at 0 0 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers
@@ -3447,7 +3554,7 @@
 	)
 	(rectangle
 		(start 315.722 25.654)
-		(end 405.13 220.98)
+		(end 405.13 188.468)
 		(stroke
 			(width 1.016)
 			(type default)
@@ -3591,16 +3698,34 @@
 		(uuid "015e7699-bedf-47af-b1bf-0be162b0975d")
 	)
 	(junction
+		(at 340.36 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0170c833-d88d-4faf-bdf2-80d58155c318")
+	)
+	(junction
 		(at 248.92 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0449d7b2-1359-4255-980f-1aacf6d99854")
 	)
 	(junction
-		(at 328.93 161.29)
+		(at 339.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0dd7e316-00b6-4833-b9dd-fef7f4e9f6ce")
+		(uuid "065aadd5-d1e4-4a8e-8624-16e3e4bd49a3")
+	)
+	(junction
+		(at 340.36 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5eb79e-01f8-47a6-8f01-f05dc6a2bcd9")
+	)
+	(junction
+		(at 323.85 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0abd19f4-6ae3-4578-9c8c-4b03ab21e01e")
 	)
 	(junction
 		(at 92.71 219.71)
@@ -3609,10 +3734,22 @@
 		(uuid "19513e50-bd5d-4b7c-8269-5e551502f956")
 	)
 	(junction
+		(at 340.36 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb2c6ae-bc8f-49ce-a091-5e73c09f798d")
+	)
+	(junction
 		(at 194.31 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2605b805-975b-43f7-af81-9721e83ab426")
+	)
+	(junction
+		(at 346.71 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2901b414-3fbb-41c5-a9dd-5162b278b522")
 	)
 	(junction
 		(at 177.8 52.07)
@@ -3633,22 +3770,22 @@
 		(uuid "32494744-ddb3-428f-919c-ece1ce82cd6a")
 	)
 	(junction
-		(at 345.44 45.72)
+		(at 323.85 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4091b191-a3e5-4609-a5ff-43159855fae3")
+		(uuid "36a07719-4999-491c-bd67-bfa5579dec76")
+	)
+	(junction
+		(at 340.36 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "441a7e8d-0ce0-42d5-9f07-cec60f60781d")
 	)
 	(junction
 		(at 55.88 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c2efa0f-3ef5-4737-aeb8-32f17c38ff91")
-	)
-	(junction
-		(at 345.44 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f15081f-e69f-4f97-bfb9-a6b95067b528")
 	)
 	(junction
 		(at 248.92 55.88)
@@ -3663,28 +3800,16 @@
 		(uuid "4f9ddfdc-a687-4c01-9e93-1245b31c3ca1")
 	)
 	(junction
+		(at 340.36 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d67c5d-7135-4def-80d2-fa62e5f03798")
+	)
+	(junction
 		(at 158.75 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "535fc65e-4f5c-49db-b1ca-ac484b3b65ca")
-	)
-	(junction
-		(at 345.44 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60e4f9f3-cca7-4f52-9828-372296d2c48e")
-	)
-	(junction
-		(at 345.44 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "613017a0-c053-4f2a-afd1-3a493fbd61d3")
-	)
-	(junction
-		(at 328.93 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63043695-b48e-4e33-9b63-16667ee16a66")
 	)
 	(junction
 		(at 194.31 130.81)
@@ -3693,22 +3818,16 @@
 		(uuid "63b50856-64c8-41a7-8f67-dda52a01fdd3")
 	)
 	(junction
-		(at 345.44 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "665e1751-ac35-4254-83ba-6202d16e0717")
-	)
-	(junction
 		(at 92.71 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "689484ee-9332-4bf9-9310-c2cef4cf796a")
 	)
 	(junction
-		(at 345.44 87.63)
+		(at 339.09 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72812cb2-64a9-499d-a572-014e48459e4b")
+		(uuid "6f24f885-fc74-4ebd-bdbd-0908d5d2e417")
 	)
 	(junction
 		(at 176.53 115.57)
@@ -3717,10 +3836,22 @@
 		(uuid "73735c2c-238c-4d27-951f-414537a9025e")
 	)
 	(junction
+		(at 340.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74d9a688-3b50-4933-b49b-62318f19ec53")
+	)
+	(junction
 		(at 260.35 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74f905e9-10c0-4a0f-9cf6-0ece87f7a253")
+	)
+	(junction
+		(at 107.95 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "756aa50d-f86b-4c37-aba3-3f8fd398d5f0")
 	)
 	(junction
 		(at 66.04 123.19)
@@ -3729,22 +3860,16 @@
 		(uuid "76111a36-6a60-445f-b7be-905db9713f3b")
 	)
 	(junction
+		(at 340.36 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d7f433-fbff-450e-b710-6b2cab38857c")
+	)
+	(junction
 		(at 88.9 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a6bfd05-7251-45e1-8227-779b3c1d7967")
-	)
-	(junction
-		(at 328.93 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a90622b-d84e-47a5-b4f1-53a085f91347")
-	)
-	(junction
-		(at 345.44 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bca89bf-8067-46f2-a3ad-a662c0881dec")
 	)
 	(junction
 		(at 162.56 52.07)
@@ -3771,18 +3896,6 @@
 		(uuid "85b8337c-d556-4caa-8221-ed4bd65941fd")
 	)
 	(junction
-		(at 345.44 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8613f677-4ab2-4b85-bb3e-03247cfc9949")
-	)
-	(junction
-		(at 345.44 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8674636b-c49c-47d1-b5fd-c47225ad684e")
-	)
-	(junction
 		(at 288.29 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3795,16 +3908,10 @@
 		(uuid "86ca5149-fae7-4b28-886e-09f0a720bd43")
 	)
 	(junction
-		(at 328.93 118.11)
+		(at 323.85 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86e124e2-f104-42e1-9b49-bd7b8c51483c")
-	)
-	(junction
-		(at 345.44 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ba19ae5-8888-4e29-aa40-7e5cf075859c")
+		(uuid "8d6dfd0c-d07c-48b4-8ad1-1df8585a5194")
 	)
 	(junction
 		(at 113.03 219.71)
@@ -3825,10 +3932,16 @@
 		(uuid "9b95561a-9064-466a-96fc-70cd4e5e4b99")
 	)
 	(junction
-		(at 328.93 74.93)
+		(at 323.85 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9dddf063-fea9-42cd-b3ab-aabd38461490")
+		(uuid "9e4ccb67-e447-4cc8-b9db-25ba92989c92")
+	)
+	(junction
+		(at 340.36 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a494c656-e95c-4356-91eb-16cc412b8a6f")
 	)
 	(junction
 		(at 111.76 39.37)
@@ -3849,6 +3962,18 @@
 		(uuid "a9861ae3-592e-4fab-bb93-7d8e314dd2e9")
 	)
 	(junction
+		(at 104.14 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad111360-7d70-4bd1-8102-a74e5b58a971")
+	)
+	(junction
+		(at 340.36 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad50af3d-7b04-43c1-84a5-1d037a05caaf")
+	)
+	(junction
 		(at 215.9 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3861,16 +3986,34 @@
 		(uuid "b485c6ab-8b1b-45c8-a896-02c0a90d63c7")
 	)
 	(junction
+		(at 323.85 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba26b809-6332-4c8a-9d86-b1a0a8bd5128")
+	)
+	(junction
+		(at 127 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4aa40c-19ad-488b-a2c2-c26b9c67187a")
+	)
+	(junction
 		(at 215.9 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb4aa7ef-73d1-43ea-9332-d8dd3ad799d3")
 	)
 	(junction
-		(at 328.93 53.34)
+		(at 323.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c13dc39f-99cd-4fb5-a228-71c19d0293c0")
+		(uuid "bcd885ae-f4aa-49e5-89e5-a7d7a3a32781")
+	)
+	(junction
+		(at 346.71 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c108858d-9f85-44e5-937e-785e9fcb3f20")
 	)
 	(junction
 		(at 246.38 246.38)
@@ -3879,22 +4022,10 @@
 		(uuid "c24d6fae-8a75-4ceb-8173-e29138133870")
 	)
 	(junction
-		(at 345.44 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9b90c2e-b03a-4034-87a6-a2c07a5cd13d")
-	)
-	(junction
 		(at 129.54 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf203280-b79e-4677-9197-e4eaf522f287")
-	)
-	(junction
-		(at 345.44 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0386089-0c52-4cc6-aa1c-f30d117d03ba")
 	)
 	(junction
 		(at 236.22 218.44)
@@ -3903,40 +4034,46 @@
 		(uuid "d2173a9b-92bc-4d35-a855-273ace96afa8")
 	)
 	(junction
+		(at 346.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d550d96a-1064-446b-81bd-73f6f4f3d88e")
+	)
+	(junction
 		(at 243.84 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d836f18a-b506-4949-a538-d414ce5d3289")
 	)
 	(junction
-		(at 345.44 139.7)
+		(at 340.36 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d939d161-239e-4803-9409-7546fdf9e414")
+		(uuid "dd52150b-09e6-4ef1-85f1-6aff37dbb4df")
 	)
 	(junction
-		(at 227.33 55.88)
+		(at 340.36 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e59a2749-d1e1-4368-b757-9de0434cd897")
+		(uuid "e867e2a5-9fac-47d4-a015-2cfc6ec75db3")
 	)
 	(junction
-		(at 345.44 196.85)
+		(at 346.71 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6248cf3-7574-4e8c-afc1-68c6c1236a7d")
-	)
-	(junction
-		(at 345.44 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e76dd7e3-4b56-4e81-929a-76493e0c1b7a")
+		(uuid "e9c15ae2-af72-4957-a3f5-b3c38e75c08d")
 	)
 	(junction
 		(at 152.4 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea15e182-774b-4b17-af64-c0f0e40ff784")
+	)
+	(junction
+		(at 102.87 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eae8266f-75f3-4cf5-b65b-4ab192960514")
 	)
 	(junction
 		(at 248.92 38.1)
@@ -3969,22 +4106,16 @@
 		(uuid "ef3ef304-f0be-4752-8f3e-4e220323d819")
 	)
 	(junction
-		(at 345.44 118.11)
+		(at 340.36 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f101837e-9077-4d84-b595-eb241044c1f3")
+		(uuid "f775fb2e-aad6-4607-b715-3cbcf80dca7b")
 	)
 	(junction
-		(at 189.23 52.07)
+		(at 323.85 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3c15820-e929-445b-a665-f03875e8dae5")
-	)
-	(junction
-		(at 328.93 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff9fa9f4-68a0-4390-86c8-fb8a43b95896")
+		(uuid "f8c50a4d-a988-496d-a7f9-ce9681cdb1f0")
 	)
 	(no_connect
 		(at 69.85 242.57)
@@ -4026,13 +4157,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 118.11) (xy 353.06 118.11)
+			(xy 102.87 146.05) (xy 101.6 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01b36698-68d6-43fe-9817-5018a94f00c9")
+		(uuid "021002db-56cf-4390-a6e2-6fe8f3fb97a8")
 	)
 	(wire
 		(pts
@@ -4046,7 +4177,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 95.25) (xy 345.44 95.25)
+			(xy 323.85 91.44) (xy 340.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 181.61) (xy 345.44 181.61)
+			(xy 323.85 162.56) (xy 340.36 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4086,13 +4217,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 77.47) (xy 353.06 77.47)
+			(xy 340.36 143.51) (xy 340.36 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bf45d46-8cc3-4bbd-aae8-3e7701cc4cf8")
+		(uuid "0ba04638-e72b-4b42-9b1e-81630c72d12b")
 	)
 	(wire
 		(pts
@@ -4106,13 +4237,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 207.01) (xy 353.06 207.01)
+			(xy 363.22 81.28) (xy 340.36 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d8826de-94a1-4e63-8adf-8d47daa4345d")
+		(uuid "0d87c8f9-d356-42cf-a1e2-cfaf93dd58d6")
 	)
 	(wire
 		(pts
@@ -4133,16 +4264,6 @@
 			(type default)
 		)
 		(uuid "0ff70e58-54b9-46ed-9b73-db1c161c3b50")
-	)
-	(wire
-		(pts
-			(xy 328.93 118.11) (xy 328.93 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11036151-7b23-42d1-8766-f5f03fb997e4")
 	)
 	(wire
 		(pts
@@ -4176,16 +4297,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 146.05) (xy 101.6 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1486378c-9d0a-4361-87aa-3a61a78c6128")
-	)
-	(wire
-		(pts
 			(xy 186.69 241.3) (xy 193.04 241.3)
 		)
 		(stroke
@@ -4203,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "169b3dac-d447-429e-adc0-6883e40bce0d")
+	)
+	(wire
+		(pts
+			(xy 346.71 72.39) (xy 346.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d806d1-71bd-46be-849e-3b3b997f19ab")
 	)
 	(wire
 		(pts
@@ -4226,43 +4347,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 148.59) (xy 101.6 148.59)
+			(xy 323.85 91.44) (xy 323.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186ae925-8300-43b9-aa4f-e91badeea58d")
+	)
+	(wire
+		(pts
+			(xy 106.68 148.59) (xy 104.14 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "187f98f6-748c-4dc8-b8f7-97cdffca11d5")
-	)
-	(wire
-		(pts
-			(xy 353.06 132.08) (xy 345.44 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1952629c-0778-4c79-9875-2465fe0ee41d")
-	)
-	(wire
-		(pts
-			(xy 353.06 45.72) (xy 345.44 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ee432e-78d5-430e-b1ee-0ed3d2a1e8e0")
-	)
-	(wire
-		(pts
-			(xy 353.06 110.49) (xy 353.06 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cbdda08-03bb-455b-a594-c87974fbc8bf")
 	)
 	(wire
 		(pts
@@ -4276,13 +4377,23 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 173.99) (xy 353.06 179.07)
+			(xy 323.85 55.88) (xy 327.66 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d074128-fbf1-4c59-acb1-754c3a9799d7")
+		(uuid "1d9321cd-00d2-4ccd-9f01-15858c5883d3")
+	)
+	(wire
+		(pts
+			(xy 323.85 144.78) (xy 323.85 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebf7feb-adb8-47bd-b83f-3661029c7b9d")
 	)
 	(wire
 		(pts
@@ -4296,17 +4407,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 161.29) (xy 353.06 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20610b0c-9081-49f0-a249-f6ec344cfa57")
-	)
-	(wire
-		(pts
-			(xy 227.33 55.88) (xy 232.41 55.88)
+			(xy 224.79 55.88) (xy 232.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4346,16 +4447,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 120.65) (xy 353.06 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2571cf67-9911-4513-a9a6-c116052ae2dd")
-	)
-	(wire
-		(pts
 			(xy 38.1 234.95) (xy 38.1 243.84)
 		)
 		(stroke
@@ -4366,13 +4457,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 184.15) (xy 353.06 184.15)
+			(xy 363.22 180.34) (xy 340.36 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "264b6b99-e256-4c14-a6e7-536cd47eed4b")
+		(uuid "275aa00e-deb3-452d-8715-dfd8059e1bd1")
 	)
 	(wire
 		(pts
@@ -4386,6 +4477,26 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 55.88) (xy 339.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286cbd7b-ee9a-45ea-a992-889b25457ea1")
+	)
+	(wire
+		(pts
+			(xy 323.85 109.22) (xy 340.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29581282-565d-4760-b9bf-547a6e3e8712")
+	)
+	(wire
+		(pts
 			(xy 54.61 77.47) (xy 58.42 77.47)
 		)
 		(stroke
@@ -4393,6 +4504,16 @@
 			(type default)
 		)
 		(uuid "29bffa20-2f9b-4128-a713-2858ae957330")
+	)
+	(wire
+		(pts
+			(xy 339.09 55.88) (xy 346.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a41e429-8de3-48d4-b56f-37edfb34a587")
 	)
 	(wire
 		(pts
@@ -4406,43 +4527,13 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 196.85) (xy 345.44 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb9fa99-d760-42c3-819e-b32a2b67d2a0")
-	)
-	(wire
-		(pts
-			(xy 328.93 139.7) (xy 328.93 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cc32fa2-7665-43fd-898b-907b628a845a")
-	)
-	(wire
-		(pts
-			(xy 177.8 52.07) (xy 189.23 52.07)
+			(xy 177.8 52.07) (xy 200.66 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d5d3ece-7a7e-4683-8a7b-f4217c8b8ee6")
-	)
-	(wire
-		(pts
-			(xy 353.06 132.08) (xy 353.06 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fbe550b-4ec5-4bec-afee-802a5dfba7cc")
 	)
 	(wire
 		(pts
@@ -4466,6 +4557,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 91.44) (xy 363.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323f3c82-94a9-4445-86b5-db2e9f19d2b7")
+	)
+	(wire
+		(pts
 			(xy 161.29 233.68) (xy 161.29 246.38)
 		)
 		(stroke
@@ -4476,16 +4577,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 43.18) (xy 328.93 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337f12dc-f278-4a18-815e-a256ac4d2429")
-	)
-	(wire
-		(pts
 			(xy 215.9 195.58) (xy 215.9 209.55)
 		)
 		(stroke
@@ -4493,16 +4584,6 @@
 			(type default)
 		)
 		(uuid "36f426db-6b6b-44de-aa89-86d5af9c9a82")
-	)
-	(wire
-		(pts
-			(xy 328.93 181.61) (xy 328.93 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a10bfb-8b9d-41f3-9c58-b86a80682dad")
 	)
 	(wire
 		(pts
@@ -4536,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 43.18) (xy 323.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0768db-5959-42cc-bb68-3bb1fa48a0ac")
+	)
+	(wire
+		(pts
 			(xy 248.92 72.39) (xy 248.92 74.93)
 		)
 		(stroke
@@ -4556,13 +4647,43 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 196.85) (xy 339.09 196.85)
+			(xy 328.93 170.18) (xy 340.36 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3dc91a19-c459-47bb-bfd1-a77a0233b9a1")
+	)
+	(wire
+		(pts
+			(xy 363.22 170.18) (xy 340.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4b22b4-a3d5-4c82-a3d2-a441a38e52f2")
+	)
+	(wire
+		(pts
+			(xy 340.36 99.06) (xy 340.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f18c866-dc70-436b-a59b-148f2b7c3b6f")
+	)
+	(wire
+		(pts
+			(xy 339.09 45.72) (xy 346.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413c39aa-aa94-495c-8d09-48a26da449c0")
 	)
 	(wire
 		(pts
@@ -4586,17 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 142.24) (xy 353.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42ce68ed-a7f1-4b13-895e-0bd3aa899fec")
-	)
-	(wire
-		(pts
-			(xy 345.44 173.99) (xy 339.09 173.99)
+			(xy 326.39 152.4) (xy 340.36 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4606,7 +4717,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 123.19) (xy 129.54 123.19)
+			(xy 101.6 123.19) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4626,13 +4737,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 95.25) (xy 353.06 95.25)
+			(xy 359.41 121.92) (xy 363.22 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44438829-8457-4bfd-856e-8722d4d10370")
+		(uuid "440ff965-8be0-466d-9073-4df4ea46349b")
 	)
 	(wire
 		(pts
@@ -4656,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 127) (xy 340.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4784ba0b-3d85-4f8a-ae9d-5565635b8737")
+	)
+	(wire
+		(pts
 			(xy 63.5 245.11) (xy 69.85 245.11)
 		)
 		(stroke
@@ -4663,6 +4784,16 @@
 			(type default)
 		)
 		(uuid "4a18227b-eecb-4a5a-b354-18fc9f117579")
+	)
+	(wire
+		(pts
+			(xy 323.85 109.22) (xy 323.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aed4fc9-a033-4675-8541-beb82bc0dcc0")
 	)
 	(wire
 		(pts
@@ -4696,13 +4827,33 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 67.31) (xy 339.09 67.31)
+			(xy 340.36 116.84) (xy 340.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d65f441-a308-4271-85fe-98f41c6407a2")
+	)
+	(wire
+		(pts
+			(xy 334.01 63.5) (xy 346.71 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e18a0e0-de9c-4d10-83cc-fbac4df3b76a")
+	)
+	(wire
+		(pts
+			(xy 363.22 134.62) (xy 340.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516bcc6d-bbb2-425f-9f38-957799fa3c78")
 	)
 	(wire
 		(pts
@@ -4713,16 +4864,6 @@
 			(type default)
 		)
 		(uuid "52e4f5b9-2745-4ccc-98e8-8f53cbcbff53")
-	)
-	(wire
-		(pts
-			(xy 339.09 163.83) (xy 353.06 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a5894b-010f-41d7-b086-05ab0016da6b")
 	)
 	(wire
 		(pts
@@ -4756,6 +4897,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 81.28) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562a7668-1a28-470d-ae51-0a7fdb5781b0")
+	)
+	(wire
+		(pts
 			(xy 118.11 39.37) (xy 118.11 40.64)
 		)
 		(stroke
@@ -4776,17 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 139.7) (xy 345.44 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f8f343-de46-40b5-a9c0-47c0be1f1ffa")
-	)
-	(wire
-		(pts
-			(xy 328.93 161.29) (xy 345.44 161.29)
+			(xy 323.85 144.78) (xy 340.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4796,23 +4937,13 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 87.63) (xy 345.44 87.63)
+			(xy 363.22 63.5) (xy 346.71 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae82ff9-ccaf-45e7-a45e-6a9597343483")
-	)
-	(wire
-		(pts
-			(xy 328.93 118.11) (xy 345.44 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7f4a03-4d86-4571-9aaf-298a51813334")
+		(uuid "5cb91480-e550-456c-a321-03e46bcf4dfc")
 	)
 	(wire
 		(pts
@@ -4823,6 +4954,16 @@
 			(type default)
 		)
 		(uuid "5ce9398e-e012-4d54-b032-9d0ac330ecfb")
+	)
+	(wire
+		(pts
+			(xy 346.71 55.88) (xy 346.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf34ca3-cdba-43b7-929b-343d5a509ada")
 	)
 	(wire
 		(pts
@@ -4863,16 +5004,6 @@
 			(type default)
 		)
 		(uuid "60c454d6-9881-49ef-ba58-fe59f3ff1c6e")
-	)
-	(wire
-		(pts
-			(xy 189.23 52.07) (xy 200.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614af048-ab7a-4e1b-b167-9a700f07b6a1")
 	)
 	(wire
 		(pts
@@ -4946,13 +5077,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 204.47) (xy 353.06 204.47)
+			(xy 363.22 73.66) (xy 346.71 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a2a75da-2c44-4796-96ed-39f8160e7be9")
+		(uuid "69b5c50d-8a4b-4450-9d9d-4b12f9c2f5ba")
 	)
 	(wire
 		(pts
@@ -5016,13 +5147,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 74.93) (xy 353.06 74.93)
+			(xy 340.36 116.84) (xy 363.22 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e1bc810-3c24-4812-86f3-f1d7eb5e2c4a")
+		(uuid "6df1e197-7b2e-4fef-ba87-8fdfb0722155")
 	)
 	(wire
 		(pts
@@ -5033,16 +5164,6 @@
 			(type default)
 		)
 		(uuid "6fa97b2a-a50e-42cd-b049-83585bdec034")
-	)
-	(wire
-		(pts
-			(xy 224.79 55.88) (xy 227.33 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7062c818-cb6f-49a7-9399-6f280bcf5ba8")
 	)
 	(wire
 		(pts
@@ -5086,6 +5207,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 180.34) (xy 340.36 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bcdf51-dfc5-4196-8ab6-ba50a2f81be3")
+	)
+	(wire
+		(pts
 			(xy 177.8 209.55) (xy 215.9 209.55)
 		)
 		(stroke
@@ -5116,26 +5247,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 67.31) (xy 353.06 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76aaa188-f117-463d-9c0c-36551a6a6124")
-	)
-	(wire
-		(pts
-			(xy 353.06 153.67) (xy 345.44 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "782de2b7-c458-4519-963b-c330f4ecf507")
-	)
-	(wire
-		(pts
 			(xy 161.29 209.55) (xy 161.29 228.6)
 		)
 		(stroke
@@ -5156,6 +5267,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 144.78) (xy 340.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8ff18b-bae5-4138-8c23-16b70b4c3988")
+	)
+	(wire
+		(pts
 			(xy 177.8 63.5) (xy 177.8 64.77)
 		)
 		(stroke
@@ -5166,6 +5287,26 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 111.506) (xy 443.23 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5cd92d-01b7-444f-9869-91cebc9d34d0")
+	)
+	(wire
+		(pts
+			(xy 323.85 55.88) (xy 323.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7581cd-5287-47a9-a86c-f8f78a74d5b4")
+	)
+	(wire
+		(pts
 			(xy 85.09 257.81) (xy 85.09 255.27)
 		)
 		(stroke
@@ -5173,6 +5314,36 @@
 			(type default)
 		)
 		(uuid "7db53cab-1e01-49fa-b7f1-5dc9377762cb")
+	)
+	(wire
+		(pts
+			(xy 340.36 170.18) (xy 340.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e527482-28a3-4c32-8ff8-b10205d94388")
+	)
+	(wire
+		(pts
+			(xy 339.09 55.88) (xy 339.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e886f2e-ce75-498f-a4c5-b20fac01380a")
+	)
+	(wire
+		(pts
+			(xy 346.71 45.72) (xy 363.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaffaa5-2bd6-46db-add7-98306677f608")
 	)
 	(wire
 		(pts
@@ -5206,13 +5377,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 132.08) (xy 339.09 132.08)
+			(xy 340.36 134.62) (xy 340.36 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8264d8cb-4de0-4c63-afbf-1d4f89be33a4")
+		(uuid "83779f52-0a38-492f-a328-2d1f12b56de1")
 	)
 	(wire
 		(pts
@@ -5276,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 153.67) (xy 353.06 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b933aa-3464-4350-8107-22321f552b1b")
-	)
-	(wire
-		(pts
 			(xy 111.76 39.37) (xy 118.11 39.37)
 		)
 		(stroke
@@ -5303,16 +5464,6 @@
 			(type default)
 		)
 		(uuid "8662e12a-f21d-466a-8e5c-194469c5b443")
-	)
-	(wire
-		(pts
-			(xy 328.93 53.34) (xy 345.44 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a7c69e-0fbe-48f3-9043-7f51312546bd")
 	)
 	(wire
 		(pts
@@ -5336,16 +5487,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 196.85) (xy 353.06 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ac4f8c-7053-43fc-a664-1a4252243560")
-	)
-	(wire
-		(pts
 			(xy 100.33 245.11) (xy 120.65 245.11)
 		)
 		(stroke
@@ -5356,7 +5497,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 95.25) (xy 328.93 118.11)
+			(xy 323.85 73.66) (xy 323.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5386,13 +5527,23 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 74.93) (xy 345.44 74.93)
+			(xy 323.85 73.66) (xy 346.71 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ba452b3-a3c4-4711-a1dc-854cdbf08532")
+	)
+	(wire
+		(pts
+			(xy 340.36 125.73) (xy 340.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f069789-468b-4e11-95f0-e0bce149aca9")
 	)
 	(wire
 		(pts
@@ -5433,6 +5584,16 @@
 			(type default)
 		)
 		(uuid "9354afcc-b031-4060-8eaf-d7fbb9a4e204")
+	)
+	(wire
+		(pts
+			(xy 346.71 63.5) (xy 346.71 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962062dc-6f38-4824-97c9-26d909cdb501")
 	)
 	(wire
 		(pts
@@ -5486,26 +5647,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 173.99) (xy 345.44 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a7cb57-4580-474e-99c5-98e8f077c96b")
-	)
-	(wire
-		(pts
-			(xy 353.06 110.49) (xy 345.44 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9adcc702-0352-4805-9dea-f3568a824903")
-	)
-	(wire
-		(pts
 			(xy 102.87 153.67) (xy 101.6 153.67)
 		)
 		(stroke
@@ -5513,16 +5654,6 @@
 			(type default)
 		)
 		(uuid "9bae6269-8816-4eb7-8129-0daadc551caf")
-	)
-	(wire
-		(pts
-			(xy 328.93 204.47) (xy 345.44 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bea8587-1d60-407c-bd13-9c1dfedc5428")
 	)
 	(wire
 		(pts
@@ -5596,6 +5727,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 116.84) (xy 340.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7091695-a5e0-46fb-a9bd-718451310144")
+	)
+	(wire
+		(pts
 			(xy 223.52 238.76) (xy 248.92 238.76)
 		)
 		(stroke
@@ -5606,13 +5747,23 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 53.34) (xy 328.93 74.93)
+			(xy 334.01 134.62) (xy 334.01 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa0c8df7-09fe-4af2-9de7-159be114a280")
+		(uuid "aca12b47-2f5d-425f-8ab1-9ab0b3989256")
+	)
+	(wire
+		(pts
+			(xy 340.36 127) (xy 363.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3b3650-b394-4135-9d9b-d15286e9d2b5")
 	)
 	(wire
 		(pts
@@ -5666,6 +5817,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 99.06) (xy 363.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5544c5-5398-4ac2-8958-c148ddac438d")
+	)
+	(wire
+		(pts
 			(xy 186.69 243.84) (xy 193.04 243.84)
 		)
 		(stroke
@@ -5673,6 +5834,16 @@
 			(type default)
 		)
 		(uuid "af62259a-a6b9-4611-92ad-3ef008a6fb50")
+	)
+	(wire
+		(pts
+			(xy 356.87 104.14) (xy 363.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04b15cc-06c8-4f79-b986-27c76bad6362")
 	)
 	(wire
 		(pts
@@ -5706,16 +5877,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 67.31) (xy 345.44 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ecae4f-c455-4810-94c4-4f95e7377f19")
-	)
-	(wire
-		(pts
 			(xy 270.51 41.91) (xy 260.35 41.91)
 		)
 		(stroke
@@ -5733,6 +5894,16 @@
 			(type default)
 		)
 		(uuid "b6c77dc6-cc24-458a-8ea6-bce1687579cb")
+	)
+	(wire
+		(pts
+			(xy 363.22 139.7) (xy 360.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bf2c93-d8f7-43c2-8558-0fa3d054c109")
 	)
 	(wire
 		(pts
@@ -5756,13 +5927,13 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 74.93) (xy 328.93 95.25)
+			(xy 346.71 55.88) (xy 363.22 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b95fc72a-30e3-49f9-8610-e04fff5b7aa8")
+		(uuid "b9dc9038-d537-4ae6-b946-dc15a91b2e53")
 	)
 	(wire
 		(pts
@@ -5783,6 +5954,16 @@
 			(type default)
 		)
 		(uuid "bb0ac5b6-494a-4482-a02b-0852d05f8d98")
+	)
+	(wire
+		(pts
+			(xy 340.36 107.95) (xy 340.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb823fa0-384a-4f18-909d-95c9db006341")
 	)
 	(wire
 		(pts
@@ -5816,6 +5997,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 160.02) (xy 340.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e0ca1c-2708-40f0-b75d-ca0ae6319238")
+	)
+	(wire
+		(pts
 			(xy 176.53 143.51) (xy 176.53 148.59)
 		)
 		(stroke
@@ -5823,16 +6014,6 @@
 			(type default)
 		)
 		(uuid "c21d3e9f-9d85-47b2-bc88-923f4e6a1055")
-	)
-	(wire
-		(pts
-			(xy 328.93 161.29) (xy 328.93 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a76504-6087-4e35-8bd9-90716c62ce4d")
 	)
 	(wire
 		(pts
@@ -5856,6 +6037,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 152.4) (xy 340.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c85110-3aa1-47e8-ac1f-c5792c331e5c")
+	)
+	(wire
+		(pts
 			(xy 177.8 52.07) (xy 177.8 55.88)
 		)
 		(stroke
@@ -5873,6 +6064,26 @@
 			(type default)
 		)
 		(uuid "cb8cee66-4db0-44a1-863b-23ebd33e23c8")
+	)
+	(wire
+		(pts
+			(xy 363.22 86.36) (xy 358.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfe0b97-25df-4f1a-a27d-e0bc4a24af55")
+	)
+	(wire
+		(pts
+			(xy 363.22 157.48) (xy 359.41 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea794d7-2927-4626-8eec-603557eef12a")
 	)
 	(wire
 		(pts
@@ -5896,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 87.63) (xy 339.09 87.63)
+			(xy 340.36 81.28) (xy 334.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5906,13 +6117,23 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 153.67) (xy 339.09 153.67)
+			(xy 340.36 134.62) (xy 334.01 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d42ff971-30cf-4e42-b316-d4a4a687c510")
+	)
+	(wire
+		(pts
+			(xy 340.36 162.56) (xy 363.22 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b6a68a-59cc-477a-9d49-70aa70627c4a")
 	)
 	(wire
 		(pts
@@ -5946,13 +6167,43 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 139.7) (xy 353.06 139.7)
+			(xy 106.68 146.05) (xy 102.87 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd0fb2ed-d976-4025-86ba-f02184719460")
+		(uuid "dd6bd12b-ed66-4991-9276-5941929648da")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 129.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de074744-ec86-49ce-abe3-cd878158f2ed")
+	)
+	(wire
+		(pts
+			(xy 323.85 162.56) (xy 323.85 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de42cf0f-921f-4175-bd0d-f7bf9fd95d07")
+	)
+	(wire
+		(pts
+			(xy 104.14 148.59) (xy 101.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0519e3-cb58-43e8-9fba-1e3d7d6ba3c4")
 	)
 	(wire
 		(pts
@@ -5976,7 +6227,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 156.21) (xy 101.6 156.21)
+			(xy 132.08 156.21) (xy 127 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6016,16 +6267,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 181.61) (xy 353.06 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e21802-505b-4e78-992a-500d39fc3283")
-	)
-	(wire
-		(pts
 			(xy 246.38 252.73) (xy 246.38 246.38)
 		)
 		(stroke
@@ -6043,6 +6284,26 @@
 			(type default)
 		)
 		(uuid "e682949c-aa93-4776-97f9-d538470a7c62")
+	)
+	(wire
+		(pts
+			(xy 363.22 175.26) (xy 360.68 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a1157f-96cc-439e-ba93-3ca3a1c749fe")
+	)
+	(wire
+		(pts
+			(xy 127 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7110b68-44ab-4f86-93f7-d45758853e06")
 	)
 	(wire
 		(pts
@@ -6096,16 +6357,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 87.63) (xy 353.06 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6aadee-0630-447b-aa8a-99eb3163c354")
-	)
-	(wire
-		(pts
 			(xy 68.58 162.56) (xy 76.2 162.56)
 		)
 		(stroke
@@ -6116,13 +6367,13 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 45.72) (xy 353.06 50.8)
+			(xy 340.36 109.22) (xy 363.22 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebf6766e-3b7b-45d5-bd7c-cda422ce7531")
+		(uuid "eb8def64-9ae8-4e26-999d-dcf421bf343c")
 	)
 	(wire
 		(pts
@@ -6146,6 +6397,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 127) (xy 323.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed42d360-b244-4354-bc38-a530c29f508d")
+	)
+	(wire
+		(pts
 			(xy 66.04 123.19) (xy 66.04 119.38)
 		)
 		(stroke
@@ -6156,26 +6417,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 55.88) (xy 353.06 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed9a4fa8-6b28-41d0-8384-2f3b48f90107")
-	)
-	(wire
-		(pts
-			(xy 345.44 53.34) (xy 353.06 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee904ea9-0916-4f50-af7c-5aac4bda0efc")
-	)
-	(wire
-		(pts
 			(xy 176.53 115.57) (xy 176.53 120.65)
 		)
 		(stroke
@@ -6183,6 +6424,16 @@
 			(type default)
 		)
 		(uuid "eec22f94-bbf8-4140-ac95-b8f67145c03c")
+	)
+	(wire
+		(pts
+			(xy 340.36 90.17) (xy 340.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1d1930-55f9-4832-bec2-a7a77cf91661")
 	)
 	(wire
 		(pts
@@ -6236,16 +6487,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 97.79) (xy 353.06 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7006c3a-088e-4ac1-8786-966a8a58f554")
-	)
-	(wire
-		(pts
 			(xy 129.54 148.59) (xy 152.4 148.59)
 		)
 		(stroke
@@ -6276,23 +6517,23 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 45.72) (xy 339.09 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5433ba-7fd9-4e7f-bf00-a4ee88e528d8")
-	)
-	(wire
-		(pts
-			(xy 345.44 110.49) (xy 339.09 110.49)
+			(xy 340.36 99.06) (xy 334.01 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc5c142b-4ea8-47a0-b0f7-a8ef34aba577")
+	)
+	(wire
+		(pts
+			(xy 334.01 45.72) (xy 339.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc48923-e497-47dd-97cc-62c3d0d45fd4")
 	)
 	(wire
 		(pts
@@ -6395,12 +6636,12 @@
 		(uuid "6146be04-6f47-4af0-8200-6af32c81f67d")
 	)
 	(label "IR Receive SE"
-		(at 339.09 120.65 0)
+		(at 360.68 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6a1bb5d9-bd03-4735-848f-f22eae790d5c")
 	)
@@ -6415,22 +6656,22 @@
 		(uuid "6f7af4af-4884-4430-b214-72cfa559bfc2")
 	)
 	(label "IR Receive S"
-		(at 339.09 142.24 0)
+		(at 359.41 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7402bd24-07fa-4331-b507-b1474f6783d0")
 	)
 	(label "IR Receive NW"
-		(at 339.09 207.01 0)
+		(at 356.87 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "76a7ffe0-dfed-4922-a2ca-d94b27117e45")
 	)
@@ -6495,7 +6736,7 @@
 		(uuid "a71cd6ce-1cc6-41d1-a1a5-b27970d4b9fb")
 	)
 	(label "Left Motor Control 2"
-		(at 102.87 148.59 0)
+		(at 106.68 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6525,12 +6766,12 @@
 		(uuid "aa7273b1-35e2-4835-ae34-3f238431a34e")
 	)
 	(label "IR Receive W"
-		(at 339.09 184.15 0)
+		(at 359.41 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ac1bb9ec-228d-483e-a3ea-99cbcb5cbd78")
 	)
@@ -6565,17 +6806,17 @@
 		(uuid "b4f07fc8-ccf1-46ee-81ba-c6f7b1d73bfb")
 	)
 	(label "IR Receive NE"
-		(at 339.09 77.47 0)
+		(at 363.22 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ba2a3acf-5e64-4b0e-90ce-f87af4836e74")
 	)
 	(label "Motors Sleep"
-		(at 102.87 156.21 0)
+		(at 132.08 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6605,22 +6846,22 @@
 		(uuid "c87766c4-9d18-453a-8d32-9574453fef80")
 	)
 	(label "IR Receive E"
-		(at 339.09 97.79 0)
+		(at 358.14 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ca75be39-8bfb-4a79-8b89-449736357991")
 	)
 	(label "IR Receive N"
-		(at 339.09 55.88 0)
+		(at 363.22 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cc00b92c-15a8-49a2-b81a-c69eaa1e2952")
 	)
@@ -6675,7 +6916,7 @@
 		(uuid "e4876f44-8cb8-4361-90b0-1dce7074d0cc")
 	)
 	(label "Left Motor Control 1"
-		(at 102.87 146.05 0)
+		(at 106.68 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6705,12 +6946,12 @@
 		(uuid "f67a4bae-7144-464c-a9ea-30f89a2c94fe")
 	)
 	(label "IR Receive SW"
-		(at 339.09 163.83 0)
+		(at 360.68 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f7dbf192-7b3a-4e60-8322-bed9e0730fa7")
 	)
@@ -6743,81 +6984,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc38c037-c653-4a9e-bdb3-1cef646f9c0c")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0410eb03-c203-4f94-baeb-802a39b8a67b")
-		(property "Reference" "TP2"
-			(at 229.87 51.3079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.87 53.8479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 232.41 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfe62769-0722-4b47-a8aa-6cbf5f24e809")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6960,7 +7126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 176.53 124.46 0)
 			(effects
 				(font
@@ -6969,7 +7135,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 161.036 76.708 0)
 			(effects
 				(font
@@ -6987,7 +7153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 161.036 76.708 0)
 			(effects
 				(font
@@ -7184,7 +7350,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 91.44 0)
+		(at 340.36 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7192,7 +7358,7 @@
 		(dnp no)
 		(uuid "0f46d0ce-f2d9-422a-b684-55ef67bb0e30")
 		(property "Reference" "C19"
-			(at 346.71 84.074 90)
+			(at 341.122 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7366,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 84.074 90)
+			(at 339.09 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +7374,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 95.25 0)
+			(at 341.3252 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 91.44 0)
+			(at 340.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +7392,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 91.44 0)
+			(at 340.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7401,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 98.044 0)
+			(at 383.032 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7244,7 +7410,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 97.79 0)
+			(at 383.794 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +7419,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 98.044 0)
+			(at 379.476 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -7461,7 +7627,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 114.046 71.628 0)
 			(effects
 				(font
@@ -7479,7 +7645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 114.046 71.628 0)
 			(effects
 				(font
@@ -7891,55 +8057,128 @@
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 201.93 0)
+		(lib_id "Connector:TestPoint")
+		(at 107.95 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "29fee8a0-58ab-44f0-9c14-17d8e32924c1")
+		(property "Reference" "TP8"
+			(at 110.49 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32972adb-62e4-4239-ad65-3a220f32cd77")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ad6f917-900b-4ff8-be23-eeda5f201138")
 		(property "Reference" "U12"
-			(at 387.35 203.1999 0)
+			(at 379.73 102.8699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 205.7399 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 105.4099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 201.93 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 201.93 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +8187,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 201.93 0)
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 373.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,6 +8372,9 @@
 		(pin "1"
 			(uuid "df6381f6-9c70-42a9-b672-c3c38246bd36")
 		)
+		(pin "4"
+			(uuid "015e03a4-af5c-486a-bed8-6a652172a875")
+		)
 		(instances
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
@@ -7975,55 +8385,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 92.71 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b1147e5-20d1-41b8-9a4d-270b42f978cf")
 		(property "Reference" "U6"
-			(at 387.35 93.9799 0)
+			(at 379.73 85.0899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 96.5199 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 92.71 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 92.71 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +8440,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 92.71 0)
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 373.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,6 +8624,9 @@
 		)
 		(pin "1"
 			(uuid "f4a5dda0-9d81-4c76-bad9-855ed8ea54fb")
+		)
+		(pin "4"
+			(uuid "1cebd06e-1541-4bf7-bab1-cdb39d936aa7")
 		)
 		(instances
 			(project "TankHull"
@@ -8153,55 +8732,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 158.75 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d761296-255e-4c0d-b7e1-0ffce317ef45")
 		(property "Reference" "U10"
-			(at 387.35 160.0199 0)
+			(at 379.73 138.4299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 162.5599 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 140.9699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 158.75 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 158.75 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8787,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 158.75 0)
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 373.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 373.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,6 +8972,9 @@
 		(pin "1"
 			(uuid "a92ddbb6-7e87-4743-914a-83efcc43a92b")
 		)
+		(pin "4"
+			(uuid "490b20c4-cf34-4688-8bb0-fc42f6eec555")
+		)
 		(instances
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
@@ -8238,7 +8986,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 157.48 0)
+		(at 340.36 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8246,7 +8994,7 @@
 		(dnp no)
 		(uuid "2dd9af04-cddc-47bf-a410-ba1c60fc5184")
 		(property "Reference" "C23"
-			(at 346.71 150.114 90)
+			(at 341.63 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +9002,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 150.114 90)
+			(at 339.09 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +9010,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 161.29 0)
+			(at 341.3252 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +9019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 157.48 0)
+			(at 340.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +9028,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 157.48 0)
+			(at 340.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +9037,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 164.084 0)
+			(at 383.032 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +9046,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 163.83 0)
+			(at 383.794 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +9055,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 164.084 0)
+			(at 379.476 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +9123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -8384,7 +9132,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 178.816 89.408 0)
 			(effects
 				(font
@@ -8402,7 +9150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 178.816 89.408 0)
 			(effects
 				(font
@@ -8427,55 +9175,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 72.39 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30f63d11-2448-457a-9377-461fff43dafb")
 		(property "Reference" "U5"
-			(at 387.35 73.6599 0)
+			(at 379.73 67.3099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 76.1999 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 69.8499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 72.39 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 72.39 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +9230,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 72.39 0)
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 384.048 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 389.128 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,6 +9414,9 @@
 		)
 		(pin "1"
 			(uuid "dcb6bc21-5cf9-4a8c-a524-d2be9b85d844")
+		)
+		(pin "4"
+			(uuid "f5f01dee-e126-4465-a523-34fb0266a69e")
 		)
 		(instances
 			(project "TankHull"
@@ -9150,7 +10067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 152.4 142.24 0)
 			(effects
 				(font
@@ -9159,7 +10076,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 136.906 94.488 0)
 			(effects
 				(font
@@ -9177,7 +10094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 136.906 94.488 0)
 			(effects
 				(font
@@ -9196,6 +10113,75 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 339.09 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e7533b3-cfac-45fd-97d3-66f91274c2e7")
+		(property "Reference" "C2"
+			(at 337.566 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 339.344 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 340.0552 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 339.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff81ec28-8ee1-48df-ab2f-373619133097")
+		)
+		(pin "2"
+			(uuid "6b732458-b1e9-48d9-816d-28e932a91f2d")
+		)
+		(instances
+			(project ""
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9428,7 +10414,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 328.93 43.18 0)
+		(at 323.85 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9436,7 +10422,7 @@
 		(dnp no)
 		(uuid "44882b98-11ff-4366-98f6-8e53f5f167aa")
 		(property "Reference" "#PWR036"
-			(at 328.93 46.99 0)
+			(at 323.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +10431,7 @@
 			)
 		)
 		(property "Value" "+3V3_HULL"
-			(at 328.93 38.862 0)
+			(at 323.85 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +10439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 43.18 0)
+			(at 323.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +10448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 43.18 0)
+			(at 323.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +10457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 328.93 43.18 0)
+			(at 323.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +10479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 49.53 0)
+		(at 346.71 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9501,7 +10487,7 @@
 		(dnp no)
 		(uuid "472ca3c9-8010-40ae-b360-89daf9f6352b")
 		(property "Reference" "C16"
-			(at 346.71 42.164 90)
+			(at 346.456 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +10495,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 42.164 90)
+			(at 348.488 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +10503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 53.34 0)
+			(at 347.6752 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +10512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 49.53 0)
+			(at 346.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +10521,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 49.53 0)
+			(at 346.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +10530,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 56.134 0)
+			(at 389.382 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +10539,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 55.88 0)
+			(at 390.144 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +10548,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 56.134 0)
+			(at 385.826 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +10573,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 114.3 0)
+		(at 340.36 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9595,7 +10581,7 @@
 		(dnp no)
 		(uuid "47b2d4b1-7f99-4a20-9229-333d31a0f7f7")
 		(property "Reference" "C20"
-			(at 346.71 106.934 90)
+			(at 341.63 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +10589,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 106.934 90)
+			(at 339.09 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +10597,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 118.11 0)
+			(at 341.3252 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +10606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 114.3 0)
+			(at 340.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +10615,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 114.3 0)
+			(at 340.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +10624,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 120.904 0)
+			(at 383.032 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +10633,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 120.65 0)
+			(at 383.794 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +10642,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 120.904 0)
+			(at 379.476 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,7 +10920,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 71.12 0)
+		(at 346.71 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9942,7 +10928,7 @@
 		(dnp no)
 		(uuid "4c3197eb-2744-4394-929c-509b14ad8f96")
 		(property "Reference" "C18"
-			(at 346.71 63.754 90)
+			(at 350.774 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +10936,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 63.754 90)
+			(at 348.234 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10944,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 74.93 0)
+			(at 347.6752 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +10953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 71.12 0)
+			(at 346.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +10962,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 71.12 0)
+			(at 346.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +10971,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 77.724 0)
+			(at 389.382 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +10980,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 77.47 0)
+			(at 390.144 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +10989,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 77.724 0)
+			(at 385.826 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,7 +11215,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 200.66 0)
+		(at 340.36 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10237,7 +11223,7 @@
 		(dnp no)
 		(uuid "4f7db005-5221-4a26-917b-f15b44b85d40")
 		(property "Reference" "C25"
-			(at 346.71 193.294 90)
+			(at 341.376 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +11231,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 193.294 90)
+			(at 338.836 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +11239,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 204.47 0)
+			(at 341.3252 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +11248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 200.66 0)
+			(at 340.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,7 +11257,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 200.66 0)
+			(at 340.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +11266,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 207.264 0)
+			(at 383.032 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +11275,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 207.01 0)
+			(at 383.794 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +11284,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 207.264 0)
+			(at 379.476 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,13 +11449,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24"
+		(property "Description" "-40℃~+85℃ 1.1uA 16 2.3V~5.5V 3mA 400kHz 8 I2C、SMBus Interrupt Output TSSOP-24 I/O Expanders ROHS"
 			(at 88.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C128392"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semicon "
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCA9555PW,118"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -10962,7 +11972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 194.31 127 0)
 			(effects
 				(font
@@ -10971,7 +11981,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 178.816 79.248 0)
 			(effects
 				(font
@@ -10989,7 +11999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 178.816 79.248 0)
 			(effects
 				(font
@@ -11242,55 +12252,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 137.16 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7df3ef16-26a5-4c34-9a6f-a2830141b040")
 		(property "Reference" "U9"
-			(at 387.35 138.4299 0)
+			(at 379.73 156.2099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 140.9699 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 158.7499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 137.16 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 137.16 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +12307,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 137.16 0)
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 373.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11315,6 +12491,9 @@
 		)
 		(pin "1"
 			(uuid "275ef3aa-5a8c-496e-abbc-5a87a7a26d91")
+		)
+		(pin "4"
+			(uuid "8335ef03-9856-4435-9ba0-bf48d4a2c944")
 		)
 		(instances
 			(project "TankHull"
@@ -11553,7 +12732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 87.63 0)
+		(at 334.01 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11561,7 +12740,7 @@
 		(dnp no)
 		(uuid "83c7415a-e878-4fba-afe2-faede00593c6")
 		(property "Reference" "#PWR047"
-			(at 339.09 93.98 0)
+			(at 334.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +12749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 92.71 0)
+			(at 334.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +12758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 87.63 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +12767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 87.63 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +12776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 87.63 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +12960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 45.72 0)
+		(at 334.01 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11789,7 +12968,7 @@
 		(dnp no)
 		(uuid "865d4e7f-243a-4e3f-b7c2-c19a32f73e2c")
 		(property "Reference" "#PWR035"
-			(at 339.09 52.07 0)
+			(at 334.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11798,7 +12977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 50.8 0)
+			(at 334.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,7 +12986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 45.72 0)
+			(at 334.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11816,7 +12995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 45.72 0)
+			(at 334.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11825,7 +13004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 45.72 0)
+			(at 334.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12036,6 +13215,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 331.47 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bad18b5-7432-4fb1-8cbd-3049f252e02d")
+		(property "Reference" "R1"
+			(at 331.724 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 331.724 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 331.47 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 331.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c0c73b-ea08-47b9-9024-af551d9bb2ad")
+		)
+		(pin "2"
+			(uuid "ff7c9c0e-c27b-4025-ba29-7d94ca0144d0")
+		)
+		(instances
+			(project ""
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 111.76 0)
 		(unit 1)
@@ -12096,6 +13342,81 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8d092b94-5e12-4699-85ab-4d1fa27f0042")
+		(property "Reference" "TP5"
+			(at 129.54 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.54 154.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "278e3336-9130-4856-a62f-13e026e10a08")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12262,130 +13583,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 189.23 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9aa7dc33-494e-4395-9539-e2c4532a065b")
-		(property "Reference" "TP1"
-			(at 191.77 47.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 194.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d0b59ab-5888-48b7-bca9-8238ced13166")
-		)
-		(instances
-			(project ""
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 179.07 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b573c3e-7e5d-4c9f-8740-90b707672fcf")
 		(property "Reference" "U11"
-			(at 387.35 180.3399 0)
+			(at 379.73 120.6499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 182.8799 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 123.1899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 179.07 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 179.07 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +13638,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 179.07 0)
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 373.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 373.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12411,6 +13823,9 @@
 		(pin "1"
 			(uuid "1a532029-682f-495a-9c78-511a437f95f2")
 		)
+		(pin "4"
+			(uuid "8d0badbc-b0b1-459f-b96b-78baecb21f7e")
+		)
 		(instances
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
@@ -12422,7 +13837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 132.08 0)
+		(at 334.01 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12430,7 +13845,7 @@
 		(dnp no)
 		(uuid "9b978f93-7d7a-42de-9530-457cf3d80ebe")
 		(property "Reference" "#PWR050"
-			(at 339.09 138.43 0)
+			(at 334.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +13854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 137.16 0)
+			(at 334.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12448,7 +13863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 132.08 0)
+			(at 334.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +13872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 132.08 0)
+			(at 334.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12466,7 +13881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 132.08 0)
+			(at 334.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +14034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 67.31 0)
+		(at 334.01 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12627,7 +14042,7 @@
 		(dnp no)
 		(uuid "a211fb7c-b2b1-45b8-a875-fd2bc41d0348")
 		(property "Reference" "#PWR046"
-			(at 339.09 73.66 0)
+			(at 334.01 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,7 +14051,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 72.39 0)
+			(at 334.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,7 +14060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 67.31 0)
+			(at 334.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +14069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 67.31 0)
+			(at 334.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12663,7 +14078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 67.31 0)
+			(at 334.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12684,55 +14099,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 50.8 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a212d176-f01e-43d2-85a7-56d0a872dd30")
 		(property "Reference" "U4"
-			(at 387.35 52.0699 0)
+			(at 379.73 49.5299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 54.6099 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 52.0699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 50.8 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 50.8 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12741,7 +14154,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 50.8 0)
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 383.794 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 389.128 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,6 +14338,9 @@
 		)
 		(pin "1"
 			(uuid "f9b7a4e8-85d0-49bb-9e3b-6129649d6c2c")
+		)
+		(pin "4"
+			(uuid "9fa38936-aa37-461b-86a5-f262e1d1537e")
 		)
 		(instances
 			(project ""
@@ -13228,7 +14812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -13237,7 +14821,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 114.046 97.028 0)
 			(effects
 				(font
@@ -13255,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 114.046 97.028 0)
 			(effects
 				(font
@@ -13485,7 +15069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 176.53 139.7 0)
 			(effects
 				(font
@@ -13494,7 +15078,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 161.036 91.948 0)
 			(effects
 				(font
@@ -13512,7 +15096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 161.036 91.948 0)
 			(effects
 				(font
@@ -13604,7 +15188,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 135.89 0)
+		(at 340.36 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13612,7 +15196,7 @@
 		(dnp no)
 		(uuid "c24e85d0-e1f2-4972-8945-4a75caf169dc")
 		(property "Reference" "C22"
-			(at 346.71 128.524 90)
+			(at 341.63 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +15204,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 128.524 90)
+			(at 339.09 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +15212,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 139.7 0)
+			(at 341.3252 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +15221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 135.89 0)
+			(at 340.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +15230,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 135.89 0)
+			(at 340.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +15239,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 142.494 0)
+			(at 383.032 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +15248,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 142.24 0)
+			(at 383.794 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +15257,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 142.494 0)
+			(at 379.476 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13907,83 +15491,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c73d7dda-1b37-40d2-a1f4-978986e08d68")
-		(property "Reference" "TP8"
-			(at 111.76 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 111.76 71.6279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "547de01e-0a72-47a2-9a83-cc51cc2996d7")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 339.09 110.49 0)
+		(at 334.01 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13991,7 +15500,7 @@
 		(dnp no)
 		(uuid "c84c4303-4a0a-4028-91e7-4e7c6377dad2")
 		(property "Reference" "#PWR048"
-			(at 339.09 116.84 0)
+			(at 334.01 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +15509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 115.57 0)
+			(at 334.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,7 +15518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 110.49 0)
+			(at 334.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14018,7 +15527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 110.49 0)
+			(at 334.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14027,7 +15536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 110.49 0)
+			(at 334.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14408,7 +15917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 153.67 0)
+		(at 334.01 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14416,7 +15925,7 @@
 		(dnp no)
 		(uuid "d7a63c02-2f1d-4011-abd0-c92798ccb1ca")
 		(property "Reference" "#PWR051"
-			(at 339.09 160.02 0)
+			(at 334.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +15934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 158.75 0)
+			(at 334.01 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +15943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 153.67 0)
+			(at 334.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14443,7 +15952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 153.67 0)
+			(at 334.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14452,7 +15961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 153.67 0)
+			(at 334.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14570,7 +16079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 196.85 0)
+		(at 328.93 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14578,7 +16087,7 @@
 		(dnp no)
 		(uuid "db59ba7c-cf04-4e97-961b-5a7ab6c7916a")
 		(property "Reference" "#PWR053"
-			(at 339.09 203.2 0)
+			(at 328.93 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +16096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 201.93 0)
+			(at 328.93 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +16105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 196.85 0)
+			(at 328.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +16114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 196.85 0)
+			(at 328.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +16123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 196.85 0)
+			(at 328.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15264,7 +16773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -15273,7 +16782,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 136.906 74.168 0)
 			(effects
 				(font
@@ -15291,7 +16800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
 			(at 136.906 74.168 0)
 			(effects
 				(font
@@ -15316,16 +16825,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 73.66 0)
+		(lib_id "Connector:TestPoint")
+		(at 104.14 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "f1771023-3ed7-42a1-b37b-7d4d4c84834e")
-		(property "Reference" "#PWR043"
-			(at 109.22 80.01 0)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f0df8ef3-75d8-4bfa-bd2d-55bfe9fc96dd")
+		(property "Reference" "TP4"
+			(at 106.68 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15333,8 +16861,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 78.74 0)
+		(property "Datasheet" "~"
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15342,8 +16870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 73.66 0)
+		(property "Description" "test point"
+			(at 104.14 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15351,86 +16879,74 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 73.66 0)
+		(property "JLCPCB Part #" ""
+			(at 104.14 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "a80c6074-d7c0-4dca-aa7b-348ec9d3b99d")
+			(uuid "fc23d076-fd38-4ae9-b58b-8eb13de6d816")
 		)
 		(instances
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "#PWR043")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Vishay IR Receiver:TSSP77038TR")
-		(at 353.06 115.57 0)
+		(lib_id "Everlight IR Receiver:IRM-V838M3_TR1")
+		(at 373.38 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3a9d5b7-4cac-41be-b4ab-96033dd30bb9")
 		(property "Reference" "U7"
-			(at 387.35 116.8399 0)
+			(at 379.73 173.9899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TSSP77038TR"
-			(at 387.35 119.3799 0)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 379.73 176.5299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Vishay IR receiver:TSSP77038TR_VIS"
-			(at 353.06 115.57 0)
+		(property "Footprint" "Everlight IR receiver:XDCR_IRM-V838M3_TR1"
+			(at 373.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DMO-0000605.pdf"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?82470"
-			(at 353.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 10mW 2.5V~5.5V 38kHz 700uA 8m ±50° SMD-4P,6.8x3mm Infrared Remote Receiver (IRM) ROHS"
-			(at 353.06 115.57 0)
+		(property "Description" "-20℃~+85℃ 2.7V~5.5V 20m 320uA 38kHz SMD-4P,6.6x3mm Infrared Remote Receiver (IRM) ROHS"
+			(at 373.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +16955,175 @@
 			)
 		)
 		(property "JLCPCB" "C499566"
-			(at 353.06 115.57 0)
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Everlight Electronics Co Ltd"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.2mm"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=eda"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-V838M3/TR1/Everlight/view-part/?ref=snap"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IRM-V838M3/TR1"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15594147&manufacturer=Everlight Electronics Co Ltd&part_name=IRM-V838M3/TR1&search_term=None"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Remote Receiver Sensor 38.0kHz 8m Surface Mount"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3291489"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRM-V838M3-C/TR1"
+			(at 373.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,6 +17139,9 @@
 		)
 		(pin "1"
 			(uuid "916dea06-6f05-4412-b7e4-a6b0a76905e8")
+		)
+		(pin "4"
+			(uuid "d162daea-d8c5-4e74-ab7d-1f95e4b61b8e")
 		)
 		(instances
 			(project "TankHull"
@@ -15562,6 +17249,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 102.87 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f5f95472-be9b-4381-a631-09fb5f8a29bb")
+		(property "Reference" "TP3"
+			(at 105.41 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6042281e-8829-4817-bbd5-64f60a745ba9")
+		)
+		(instances
+			(project "TankHull"
+				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 163.83 111.76 0)
 		(unit 1)
@@ -15628,7 +17390,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 173.99 0)
+		(at 326.39 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15636,7 +17398,7 @@
 		(dnp no)
 		(uuid "f7354ddd-0828-4d65-af36-576b25c52df5")
 		(property "Reference" "#PWR052"
-			(at 339.09 180.34 0)
+			(at 326.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15645,7 +17407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 179.07 0)
+			(at 326.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +17416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 173.99 0)
+			(at 326.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15663,7 +17425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 173.99 0)
+			(at 326.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15672,7 +17434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 173.99 0)
+			(at 326.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +17521,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 345.44 177.8 0)
+		(at 340.36 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15767,7 +17529,7 @@
 		(dnp no)
 		(uuid "f8decea0-c667-437c-8f87-f6556c80963e")
 		(property "Reference" "C24"
-			(at 346.71 170.434 90)
+			(at 341.63 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +17537,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 344.17 170.434 90)
+			(at 339.09 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,7 +17545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.4052 181.61 0)
+			(at 341.3252 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15792,7 +17554,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 177.8 0)
+			(at 340.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15801,7 +17563,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 177.8 0)
+			(at 340.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15810,7 +17572,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C14663"
-			(at 388.112 184.404 0)
+			(at 383.032 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15819,7 +17581,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 388.874 184.15 0)
+			(at 383.794 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +17590,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
-			(at 384.556 184.404 0)
+			(at 379.476 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
