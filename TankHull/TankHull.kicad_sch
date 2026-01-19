@@ -11973,7 +11973,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c3cd9ea-5780-44aa-bd0f-d33e0e2dfd82")
 		(property "Reference" "U8"
 			(at 91.0433 115.57 0)
@@ -12021,7 +12020,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C128392"
-			(at 88.9 143.51 0)
+			(at 85.598 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12029,7 +12028,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP Semicon "
-			(at 88.9 143.51 0)
+			(at 86.614 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12036,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PCA9555PW,118"
-			(at 88.9 143.51 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
