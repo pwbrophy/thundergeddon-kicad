@@ -3600,7 +3600,7 @@
 		)
 		(uuid dd7fef65-adae-478b-b4fc-adf20911881b)
 	)
-	(text "Left Track and Turret Motor Controller"
+	(text "Hull: Left Track and Turret Motor Controller"
 		(exclude_from_sim no)
 		(at 154.94 184.658 0)
 		(effects
@@ -3613,7 +3613,7 @@
 		)
 		(uuid "27255d0f-326d-432f-9335-7fc1e93a5b86")
 	)
-	(text "Convert Battery to 3.3V"
+	(text "Hull: Convert Battery to 3.3V"
 		(exclude_from_sim no)
 		(at 219.71 27.94 0)
 		(effects
@@ -3626,7 +3626,7 @@
 		)
 		(uuid "58bac061-05ee-40f8-8032-a6ce74fd2686")
 	)
-	(text "Slip Ring Connector\nand Expansion Connections"
+	(text "Hull: Slip Ring Connector\nand Expansion Connections"
 		(exclude_from_sim no)
 		(at 31.75 29.718 0)
 		(effects
@@ -3639,7 +3639,7 @@
 		)
 		(uuid "72cb18db-1f1c-4d3c-8584-67a60303ee84")
 	)
-	(text "IR Receivers"
+	(text "Hull: IR Receivers"
 		(exclude_from_sim no)
 		(at 317.5 28.448 0)
 		(effects
@@ -3652,7 +3652,7 @@
 		)
 		(uuid "7a07fe08-f021-472e-85a0-f517640ec50d")
 	)
-	(text "Battery Connection, Switch Connection, Reverse Polarity Protection, Power LED"
+	(text "Hull: Battery Connection, Switch Connection,\nReverse Polarity Protection, Power LED"
 		(exclude_from_sim no)
 		(at 88.138 29.21 0)
 		(effects
@@ -3665,7 +3665,7 @@
 		)
 		(uuid "8d0df0e9-732f-4937-b411-89c93f8bd0bf")
 	)
-	(text "New GPIO Expansion"
+	(text "Hull: GPIO Expansion"
 		(exclude_from_sim no)
 		(at 31.496 98.552 0)
 		(effects
@@ -3678,7 +3678,7 @@
 		)
 		(uuid "9f5866bf-5e99-4947-a532-bda3adbb8b53")
 	)
-	(text "Right Track Motor Controller"
+	(text "Hull: Right Track Motor Controller"
 		(exclude_from_sim no)
 		(at 31.75 184.658 0)
 		(effects
@@ -3974,7 +3974,7 @@
 		(uuid "9e4ccb67-e447-4cc8-b9db-25ba92989c92")
 	)
 	(junction
-		(at 111.76 39.37)
+		(at 111.76 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5ce5fc4-f0b9-48e4-b0b9-624d6f70c6cd")
@@ -4219,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 111.76 49.53)
+			(xy 111.76 43.18) (xy 111.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5069,7 +5069,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 118.11 40.64)
+			(xy 118.11 43.18) (xy 118.11 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5649,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 118.11 39.37)
+			(xy 111.76 43.18) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6379,7 +6379,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 111.76 39.37)
+			(xy 104.14 43.18) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10842,7 +10842,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 104.14 39.37 0)
+		(at 104.14 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10850,7 +10850,7 @@
 		(dnp no)
 		(uuid "43a473b0-9898-49a0-827c-5a534036b059")
 		(property "Reference" "#FLG01"
-			(at 104.14 37.465 0)
+			(at 104.14 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10859,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 104.14 35.56 0)
+			(at 104.14 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +10867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 39.37 0)
+			(at 104.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +10876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 39.37 0)
+			(at 104.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +10885,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.14 39.37 0)
+			(at 104.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +12357,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 40.64 0)
+		(at 118.11 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12366,7 +12366,7 @@
 		(fields_autoplaced yes)
 		(uuid "69f9d5ca-c175-4130-9116-34b41efc6fe4")
 		(property "Reference" "#PWR014"
-			(at 118.11 46.99 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,7 +12375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 45.72 0)
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,7 +12384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 40.64 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,7 +12393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 40.64 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,7 +12402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 40.64 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
