@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Thundergeddon_Power")(type "KiCad")(uri "F:/Data/Thundergeddon/KiCad/Libraries/Thundergeddon_Power.kicad_sym")(options "")(descr ""))
+)
