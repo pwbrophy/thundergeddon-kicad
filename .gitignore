@@ -41,3 +41,6 @@ _autosave-*
 /outputs/
 /gerbers/
 /fabrication/
+
+CLAUDE.md
+/.claude
