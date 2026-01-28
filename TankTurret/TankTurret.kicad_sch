@@ -8990,7 +8990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J3:RESETB pull up to +CAM_2V8"
 			(at 267.97 69.85 90)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J3:SIO_C to GPIO5 pull up to +CAM_2V8"
 			(at 275.59 82.55 90)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1:FB to +3v3 and FB1 in series"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -9305,7 +9305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1:FB pull down"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -9515,7 +9515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U4:VOUT to DVDD decoupling to GND"
 			(at 316.23 55.88 0)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U3:VOUT to DOVDD decoupling to GND"
 			(at 311.15 33.02 0)
 			(effects
 				(font
@@ -9964,7 +9964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J3:SIO_D to GPIO4 pull up to +CAM_2V8"
 			(at 246.38 101.6 90)
 			(effects
 				(font
@@ -10373,7 +10373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J2:VBUS to +5V_USB decoupling to GND"
 			(at 67.31 243.84 0)
 			(effects
 				(font
@@ -10544,7 +10544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1:L1 to +3V3 decoupling to GND"
 			(at 99.06 38.1 0)
 			(effects
 				(font
@@ -10905,7 +10905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "Connector for  6 × WS2812 RGB LED"
 			(at 374.65 162.56 0)
 			(effects
 				(font
@@ -11049,7 +11049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "AVDD decoupling to +CAM_AVDD_28"
 			(at 281.94 95.25 90)
 			(effects
 				(font
@@ -11322,7 +11322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "AVDD decoupling to +CAM_AVDD_28"
 			(at 294.64 95.25 90)
 			(effects
 				(font
@@ -11427,7 +11427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J2:CC2 pull down"
 			(at 67.31 232.41 90)
 			(effects
 				(font
@@ -11506,7 +11506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J2:VBUS to +5V_USB decoupling to GND"
 			(at 54.61 243.84 0)
 			(effects
 				(font
@@ -11651,7 +11651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "R3 decoupling to +3V3_CLEAN"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -11754,7 +11754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1: LX to PS1:BS"
 			(at 124.46 30.48 90)
 			(effects
 				(font
@@ -11922,7 +11922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "PS1:FB series to +3V3"
+		(property "Notes" "PS1:FB in series to +3V3"
 			(at 130.81 63.5 90)
 			(effects
 				(font
@@ -12026,7 +12026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1:LX to +3V3"
 			(at 106.68 44.45 90)
 			(effects
 				(font
@@ -12132,7 +12132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J6:PIN1 to +3V3 decoupling to GND"
 			(at 347.98 153.67 0)
 			(effects
 				(font
@@ -12277,7 +12277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "3mm IR LED connector"
 			(at 259.08 222.25 0)
 			(effects
 				(font
@@ -12514,7 +12514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "R8 to Q1:Base pull down"
 			(at 257.81 171.45 0)
 			(effects
 				(font
@@ -12828,7 +12828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "3mm IR LED connector"
 			(at 259.08 209.55 0)
 			(effects
 				(font
@@ -13041,7 +13041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "R3 decoupling to +3V3_CLEAN"
 			(at 166.37 66.04 0)
 			(effects
 				(font
@@ -13192,7 +13192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "+3V3_CLEAN to +CAM2V8"
 			(at 346.71 34.29 0)
 			(effects
 				(font
@@ -13477,7 +13477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U1:GPIO0 to SW1 decouple to GND"
 			(at 176.53 116.84 0)
 			(effects
 				(font
@@ -13555,7 +13555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U3:VIN to +3V3_CLEAN decoupling to GND"
 			(at 383.54 33.02 0)
 			(effects
 				(font
@@ -13660,7 +13660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J3:PWDN pull down"
 			(at 288.29 64.77 90)
 			(effects
 				(font
@@ -13816,7 +13816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U3:VOUT to DOVDD decoupling to GND"
 			(at 299.72 33.02 0)
 			(effects
 				(font
@@ -13921,7 +13921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J2:CC1 pull down"
 			(at 52.07 236.22 90)
 			(effects
 				(font
@@ -14259,7 +14259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1:FB to 3V3 clean"
 			(at 156.21 62.23 90)
 			(effects
 				(font
@@ -14345,7 +14345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "+3V3_CLEAN to +CAM1V3"
 			(at 346.71 60.96 0)
 			(effects
 				(font
@@ -14590,7 +14590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "IR#1 to J4:Pin1 in series"
 			(at 243.84 209.55 90)
 			(effects
 				(font
@@ -14798,7 +14798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U4:VIN and CE to +3V3_CLEAN decoupling to GND"
 			(at 381 59.69 0)
 			(effects
 				(font
@@ -15142,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J6:PIN1 to +3V3 decoupling to GND"
 			(at 361.95 153.67 0)
 			(effects
 				(font
@@ -15221,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U4:VOUT to DVDD decoupling to GND"
 			(at 300.99 55.88 0)
 			(effects
 				(font
@@ -15393,7 +15393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J6:PIN1 to +3V3 decoupling to GND"
 			(at 335.28 153.67 0)
 			(effects
 				(font
@@ -15743,7 +15743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J2:VBUS to +BATT to avoid battery voltage flowing back into USB"
 			(at 39.37 248.92 0)
 			(effects
 				(font
@@ -15914,7 +15914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "STATUS_LEDS to J6:Pin2 in series"
 			(at 349.25 168.91 90)
 			(effects
 				(font
@@ -16086,7 +16086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "PS1:L1 to +3V3 decoupling to GND"
 			(at 90.17 38.1 0)
 			(effects
 				(font
@@ -16323,7 +16323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "J3:XCLK series to GPIO15"
 			(at 264.16 52.07 90)
 			(effects
 				(font
@@ -16467,7 +16467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U3:VOUT to DOVDD decoupling to GND"
 			(at 284.48 33.02 0)
 			(effects
 				(font
@@ -16546,7 +16546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U4:VIN and CE to +3V3_CLEAN decoupling to GND"
 			(at 365.76 59.69 0)
 			(effects
 				(font
@@ -16757,7 +16757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "3V Piezo Buzzer"
 			(at 284.48 152.4 0)
 			(effects
 				(font
@@ -16845,7 +16845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "Connector to 4 Wire Slip Ring Connector to Hull Board for I2C and power"
 			(at 38.1 46.99 0)
 			(effects
 				(font
@@ -17088,7 +17088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U1:EN pull up to +3V3_CLEAN"
 			(at 50.8 93.98 90)
 			(effects
 				(font
@@ -17233,7 +17233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U3:VIN to +3V3_CLEAN decoupling to GND"
 			(at 368.3 33.02 0)
 			(effects
 				(font
@@ -17338,7 +17338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "IR#2 to J5:Pin1 in series"
 			(at 243.84 222.25 90)
 			(effects
 				(font
@@ -17482,7 +17482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "+CAM_2V8 to J3:AVDD"
 			(at 320.04 91.44 90)
 			(effects
 				(font
@@ -17587,7 +17587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "BUZZER to Q1:Base in series"
 			(at 250.19 163.83 90)
 			(effects
 				(font
@@ -17758,7 +17758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "ESP32 in tank turret"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -18242,7 +18242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "OV2640 24 pin camera connector"
 			(at 233.68 52.07 90)
 			(effects
 				(font
@@ -18413,7 +18413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "+BATT to PS1:IN decoupling to GND"
 			(at 99.06 57.15 0)
 			(effects
 				(font
@@ -18518,7 +18518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U1:GPIO0 pull up to +3V3_CLEAN"
 			(at 180.34 93.98 90)
 			(effects
 				(font
@@ -18560,7 +18560,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 35.814 109.22 0)
 			(effects
 				(font
@@ -18596,7 +18596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "U1:EN to SW2 decoupling to GND"
 			(at 43.18 106.68 0)
 			(effects
 				(font
