@@ -318,167 +318,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5798,6 +5637,12 @@
 		(uuid "fcbb5e05-ab38-4519-b6e0-a397b5e977ac")
 	)
 	(junction
+		(at 184.15 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "020fe04b-86a8-4631-9097-06a391689b72")
+	)
+	(junction
 		(at 171.45 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5856,6 +5701,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43bf817f-b320-4b7f-b145-b705d1cf323c")
+	)
+	(junction
+		(at 184.15 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "454cea9e-b0f1-445d-87cd-742beef02ecc")
 	)
 	(junction
 		(at 326.39 74.93)
@@ -6397,16 +6248,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 115.57) (xy 63.5 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19781f7d-911f-4377-a01f-0dc529529d5f")
-	)
-	(wire
-		(pts
 			(xy 154.94 105.41) (xy 160.02 105.41)
 		)
 		(stroke
@@ -6677,6 +6518,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 115.57) (xy 63.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37593c84-c13b-4fc2-acf5-afee5756972c")
+	)
+	(wire
+		(pts
 			(xy 139.7 44.45) (xy 139.7 46.99)
 		)
 		(stroke
@@ -6867,7 +6718,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 166.37) (xy 154.94 166.37)
+			(xy 193.04 166.37) (xy 184.15 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6937,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 154.94) (xy 269.24 158.75)
+			(xy 269.24 152.4) (xy 269.24 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6977,7 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 156.21) (xy 154.94 156.21)
+			(xy 193.04 156.21) (xy 184.15 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7064,6 +6915,16 @@
 			(type default)
 		)
 		(uuid "60499b4d-30ab-4331-8d26-0d5492093c73")
+	)
+	(wire
+		(pts
+			(xy 184.15 158.75) (xy 186.69 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6077be42-c4ad-46a7-97f8-5aeeafcec6e1")
 	)
 	(wire
 		(pts
@@ -7234,6 +7095,16 @@
 			(type default)
 		)
 		(uuid "70a38744-ad69-4dbd-9f6f-eb7070570f2c")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 63.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d8eba1-3e29-4fe9-8eaa-c214cedc5e54")
 	)
 	(wire
 		(pts
@@ -7897,16 +7768,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 113.03) (xy 63.5 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add2ff8c-2e30-4663-b9c6-ee354a8dc455")
-	)
-	(wire
-		(pts
 			(xy 375.92 59.69) (xy 375.92 67.31)
 		)
 		(stroke
@@ -7927,7 +7788,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 154.94) (xy 269.24 154.94)
+			(xy 281.94 152.4) (xy 269.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8227,6 +8088,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 148.59) (xy 184.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9edad7a-4be9-4a61-b9d5-456cf1edb90e")
+	)
+	(wire
+		(pts
 			(xy 318.77 102.87) (xy 325.12 102.87)
 		)
 		(stroke
@@ -8334,6 +8205,16 @@
 			(type default)
 		)
 		(uuid "d3c6e3c0-e73d-45c1-a62e-1b5eb306ed65")
+	)
+	(wire
+		(pts
+			(xy 184.15 166.37) (xy 154.94 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d6b009-961d-42f1-a6e5-9890e8ca20a0")
 	)
 	(wire
 		(pts
@@ -8497,6 +8378,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 156.21) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91a2289-26bf-4c07-a1b8-7a84078db141")
+	)
+	(wire
+		(pts
 			(xy 196.85 113.03) (xy 191.77 113.03)
 		)
 		(stroke
@@ -8514,6 +8405,16 @@
 			(type default)
 		)
 		(uuid "eaecc1ae-a98d-4dd1-b6ed-1574790e0ac3")
+	)
+	(wire
+		(pts
+			(xy 160.02 168.91) (xy 154.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb21ba94-168a-4258-b62f-238498e1e14e")
 	)
 	(wire
 		(pts
@@ -8627,16 +8528,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 168.91) (xy 160.02 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa39595a-4758-4b53-9d01-1026bbcf5606")
-	)
-	(wire
-		(pts
 			(xy 360.68 67.31) (xy 360.68 59.69)
 		)
 		(stroke
@@ -8736,7 +8627,7 @@
 		(uuid "24f5b529-f287-41c4-8049-1be14c6fe14b")
 	)
 	(label "I2C SCL"
-		(at 160.02 166.37 0)
+		(at 193.04 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8836,7 +8727,7 @@
 		(uuid "3df136de-8a69-4d8b-b61f-b807321188a2")
 	)
 	(label "IR #2"
-		(at 58.42 115.57 180)
+		(at 58.42 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8886,7 +8777,7 @@
 		(uuid "4a137b8f-0589-4d60-a1c7-499845a32472")
 	)
 	(label "IR #1"
-		(at 58.42 113.03 180)
+		(at 58.42 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9116,7 +9007,7 @@
 		(uuid "da2cc59a-6453-42e3-bf88-edcadbadae18")
 	)
 	(label "I2C SDA"
-		(at 160.02 156.21 0)
+		(at 193.04 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10136,6 +10027,72 @@
 			(project "TankTurret"
 				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144bcaf9-431e-448a-959a-47e7337e8377")
+		(property "Reference" "#PWR021"
+			(at 182.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.738 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3dbe0dc-5b96-49dd-831f-7d1e9291ee9c")
+		)
+		(instances
+			(project "TankTurret"
+				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12253,6 +12210,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 287.02 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46128a56-61dd-45ce-a60e-d263975239b2")
+		(property "Reference" "J3"
+			(at 289.56 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 289.56 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 287.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 287.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0af1c2a3-0c42-4fd6-b425-9d88124f394d")
+		)
+		(pin "1"
+			(uuid "a61ce4f9-ff15-46a7-b97d-29c42e14bd8a")
+		)
+		(instances
+			(project ""
+				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 69.85 0)
 		(unit 1)
@@ -14349,6 +14376,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71cb572c-5b3d-4867-bcb1-6d983474324f")
+		(property "Reference" "#PWR011"
+			(at 182.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.484 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49f706ab-89ef-4b20-8b85-24d755afda03")
+		)
+		(instances
+			(project "TankTurret"
+				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 361.95 213.36 180)
 		(unit 1)
@@ -15010,6 +15103,111 @@
 			(project "TankTurret"
 				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80584d37-56e0-45b5-9439-4bc2aef3f43c")
+		(property "Reference" "R19"
+			(at 178.816 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 178.308 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 182.372 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
+			(at 208.788 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 208.788 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 208.788 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "I2C SDA pull up"
+			(at 184.15 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01f51b87-4c2f-4d6e-93e6-a2e6836a29eb")
+		)
+		(pin "2"
+			(uuid "85d5c13e-c629-43d5-ab52-db926ab45f66")
+		)
+		(instances
+			(project "TankTurret"
+				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18369,85 +18567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 284.48 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d86cc24b-ef51-4ad2-a106-a6da5a2b92cb")
-		(property "Reference" "BZ1"
-			(at 288.29 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 288.29 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 283.845 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 283.845 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 284.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "3V Piezo Buzzer"
-			(at 284.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd668dd5-5ed2-471f-bed9-8e154fd8a38f")
-		)
-		(pin "2"
-			(uuid "02459cf6-3db0-460e-ab49-5a2d87612e5e")
-		)
-		(instances
-			(project ""
-				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Thundergeddon_Power:Turret_Slip_Ring_Connector")
 		(at 40.64 49.53 0)
 		(unit 1)
@@ -19644,6 +19763,111 @@
 			(project "TankTurret"
 				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ececac87-960a-4908-bc7d-26e74055ab56")
+		(property "Reference" "R20"
+			(at 178.816 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 178.308 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 182.372 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23162"
+			(at 208.788 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 208.788 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 208.788 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "I2C SLC pull up"
+			(at 184.15 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "991763c5-722b-4338-b205-78c8227472b4")
+		)
+		(pin "2"
+			(uuid "e9481508-786d-4f87-abc4-dcfbeaf02158")
+		)
+		(instances
+			(project "TankTurret"
+				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
+					(reference "R20")
 					(unit 1)
 				)
 			)
