@@ -3734,6 +3734,12 @@
 		(uuid "0c12c51b-b8dc-486d-bd37-a815bd4605f7")
 	)
 	(junction
+		(at 323.85 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dce8b60-4f1b-4b02-a20b-f78d73d46761")
+	)
+	(junction
 		(at 92.71 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3776,16 +3782,16 @@
 		(uuid "36a07719-4999-491c-bd67-bfa5579dec76")
 	)
 	(junction
+		(at 339.09 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "394a03ed-b801-47ca-9eb6-f54ce54cb309")
+	)
+	(junction
 		(at 339.09 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42838e52-2ce8-4253-ac72-c7a8ac57cd5d")
-	)
-	(junction
-		(at 55.88 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c2efa0f-3ef5-4737-aeb8-32f17c38ff91")
 	)
 	(junction
 		(at 248.92 55.88)
@@ -3866,12 +3872,6 @@
 		(uuid "756aa50d-f86b-4c37-aba3-3f8fd398d5f0")
 	)
 	(junction
-		(at 66.04 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76111a36-6a60-445f-b7be-905db9713f3b")
-	)
-	(junction
 		(at 346.71 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3924,12 +3924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86a63a7e-95d7-4413-8043-23a70867e1ed")
-	)
-	(junction
-		(at 55.88 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86ca5149-fae7-4b28-886e-09f0a720bd43")
 	)
 	(junction
 		(at 346.71 91.44)
@@ -4166,10 +4160,10 @@
 		(uuid "ef3ef304-f0be-4752-8f3e-4e220323d819")
 	)
 	(junction
-		(at 323.85 91.44)
+		(at 339.09 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8c50a4d-a988-496d-a7f9-ce9681cdb1f0")
+		(uuid "f1a76135-2b8d-4b13-8ad4-9ba0fbd0e360")
 	)
 	(junction
 		(at 346.71 144.78)
@@ -4200,6 +4194,10 @@
 	(no_connect
 		(at 223.52 233.68)
 		(uuid "40962976-3b9f-49ad-89a0-38d8a51a9dfb")
+	)
+	(no_connect
+		(at 76.2 130.81)
+		(uuid "490afeb9-e181-45f9-a435-b82ab60582ce")
 	)
 	(no_connect
 		(at 100.33 234.95)
@@ -4249,6 +4247,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 134.62) (xy 346.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02cae2e7-5e97-40f1-b99a-b485abf26943")
+	)
+	(wire
+		(pts
 			(xy 72.39 219.71) (xy 80.01 219.71)
 		)
 		(stroke
@@ -4259,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 91.44) (xy 327.5667 91.44)
+			(xy 323.85 91.44) (xy 327.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4446,16 +4454,6 @@
 			(type default)
 		)
 		(uuid "1808ceb6-eaaf-4cfd-9fad-3010e610875d")
-	)
-	(wire
-		(pts
-			(xy 323.85 91.44) (xy 323.85 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186ae925-8300-43b9-aa4f-e91badeea58d")
 	)
 	(wire
 		(pts
@@ -4819,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 170.18) (xy 346.71 170.18)
+			(xy 328.93 170.18) (xy 339.09 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5119,16 +5117,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 55.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce9398e-e012-4d54-b032-9d0ac330ecfb")
-	)
-	(wire
-		(pts
 			(xy 346.71 55.88) (xy 346.71 53.34)
 		)
 		(stroke
@@ -5196,16 +5184,6 @@
 			(type default)
 		)
 		(uuid "60c454d6-9881-49ef-ba58-fe59f3ff1c6e")
-	)
-	(wire
-		(pts
-			(xy 55.88 106.68) (xy 55.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62313f4d-277c-441e-916c-abc60fb33a92")
 	)
 	(wire
 		(pts
@@ -5359,16 +5337,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 55.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70dd6107-7f7a-408d-ad71-e3859deb1b69")
-	)
-	(wire
-		(pts
 			(xy 236.22 209.55) (xy 229.87 209.55)
 		)
 		(stroke
@@ -5466,16 +5434,6 @@
 			(type default)
 		)
 		(uuid "7924510a-db63-4b31-a6ae-fab5c359d39c")
-	)
-	(wire
-		(pts
-			(xy 59.69 123.19) (xy 66.04 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6ae689-1eae-471e-a8f3-1ff73f798435")
 	)
 	(wire
 		(pts
@@ -5679,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 123.19) (xy 76.2 123.19)
+			(xy 59.69 123.19) (xy 76.2 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5799,16 +5757,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 66.04 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9354afcc-b031-4060-8eaf-d7fbb9a4e204")
-	)
-	(wire
-		(pts
 			(xy 346.71 63.5) (xy 346.71 64.77)
 		)
 		(stroke
@@ -5816,16 +5764,6 @@
 			(type default)
 		)
 		(uuid "962062dc-6f38-4824-97c9-26d909cdb501")
-	)
-	(wire
-		(pts
-			(xy 45.72 125.73) (xy 55.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "967ab40f-3cdf-4f6e-8119-a9fd826d8dfd")
 	)
 	(wire
 		(pts
@@ -6199,6 +6137,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 91.44) (xy 323.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6ffc70-3896-47e3-b594-4038cd730a5f")
+	)
+	(wire
+		(pts
 			(xy 100.33 247.65) (xy 120.65 247.65)
 		)
 		(stroke
@@ -6259,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 125.73) (xy 76.2 125.73)
+			(xy 59.69 125.73) (xy 76.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6319,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.1867 91.44) (xy 339.09 91.44)
+			(xy 335.28 91.44) (xy 339.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6349,7 +6297,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 134.62) (xy 346.71 134.62)
+			(xy 334.01 134.62) (xy 339.09 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6666,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "ef1d1930-55f9-4832-bec2-a7a77cf91661")
+	)
+	(wire
+		(pts
+			(xy 339.09 170.18) (xy 346.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf3aaa-316c-4e2a-bfb7-46a0d13802c4")
 	)
 	(wire
 		(pts
@@ -7158,7 +7116,7 @@
 		(uuid "cdd20dbe-36cd-4b86-9a53-1c1cb607809b")
 	)
 	(label "SDA"
-		(at 45.72 125.73 0)
+		(at 59.69 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7380,7 +7338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 124.46 90)
 			(effects
 				(font
@@ -7398,7 +7356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 176.53 124.46 0)
 			(effects
 				(font
@@ -7407,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 161.036 76.708 0)
 			(effects
 				(font
@@ -7425,7 +7383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 161.036 76.708 0)
 			(effects
 				(font
@@ -7551,7 +7509,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0f13a0c1-577b-45a6-93d6-e1ae1f040050")
@@ -7872,7 +7830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 119.38 90)
 			(effects
 				(font
@@ -7890,7 +7848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -7899,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 114.046 71.628 0)
 			(effects
 				(font
@@ -7917,7 +7875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 114.046 71.628 0)
 			(effects
 				(font
@@ -8219,6 +8177,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c22956f3-ca60-493c-946f-425b04b88043")
 		)
@@ -8305,7 +8272,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29fee8a0-58ab-44f0-9c14-17d8e32924c1")
@@ -9348,7 +9315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 137.16 90)
 			(effects
 				(font
@@ -9366,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -9375,7 +9342,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 178.816 89.408 0)
 			(effects
 				(font
@@ -9393,7 +9360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 178.816 89.408 0)
 			(effects
 				(font
@@ -10251,6 +10218,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f61943bb-cbbe-4089-92a3-56aa07eee9e0")
 		)
@@ -10359,7 +10335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.622 142.24 90)
 			(effects
 				(font
@@ -10377,7 +10353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 152.4 142.24 0)
 			(effects
 				(font
@@ -10386,7 +10362,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 136.906 94.488 0)
 			(effects
 				(font
@@ -10404,7 +10380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 136.906 94.488 0)
 			(effects
 				(font
@@ -10475,6 +10451,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 339.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,6 +10593,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 331.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,9 +11389,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4d083692-2c42-4c86-9084-39fbccc6149e")
 		(property "Reference" "J7"
 			(at 66.04 73.6601 0)
@@ -11689,9 +11683,9 @@
 		(at 125.73 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "532df0a4-7184-46de-bc15-44fcf5ce4fcb")
 		(property "Reference" "J3"
 			(at 127 245.1099 0)
@@ -11827,6 +11821,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 339.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12079,9 +12082,9 @@
 		(at 55.88 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "61cc1c05-cc70-4dca-8ff3-9d9095b87041")
 		(property "Reference" "J1"
 			(at 57.15 40.64 0)
@@ -12399,7 +12402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 127 90)
 			(effects
 				(font
@@ -12417,7 +12420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 194.31 127 0)
 			(effects
 				(font
@@ -12426,7 +12429,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 178.816 79.248 0)
 			(effects
 				(font
@@ -12444,7 +12447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 178.816 79.248 0)
 			(effects
 				(font
@@ -12539,9 +12542,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "738d46b6-9fc8-4f6c-92d3-b5eeb11116dd")
 		(property "Reference" "J4"
 			(at 255.27 241.3001 0)
@@ -12677,6 +12680,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 339.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,6 +13308,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e42e107d-a08f-4230-8072-dc227692416d")
 		)
@@ -13704,9 +13725,9 @@
 		(at 254 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "87fd0bde-8386-456c-8e8d-7e0f11301e3d")
 		(property "Reference" "J5"
 			(at 255.27 243.8399 0)
@@ -13847,6 +13868,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04c0c73b-ea08-47b9-9024-af551d9bb2ad")
 		)
@@ -13934,7 +13964,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8d092b94-5e12-4699-85ab-4d1fa27f0042")
@@ -14149,6 +14179,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "623bcee7-55ab-4407-b917-4512cea3ada9")
 		)
@@ -14232,7 +14271,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 331.3767 91.44 90)
+		(at 331.47 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14240,7 +14279,7 @@
 		(dnp no)
 		(uuid "97717117-c7bd-43c4-8734-493dde2314a1")
 		(property "Reference" "R5"
-			(at 331.6307 86.868 90)
+			(at 331.724 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14248,7 +14287,7 @@
 			)
 		)
 		(property "Value" "47Ω"
-			(at 331.6307 89.154 90)
+			(at 331.724 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14256,7 +14295,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 331.3767 93.218 90)
+			(at 331.47 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14265,7 +14304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.3767 91.44 0)
+			(at 331.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14274,7 +14313,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 331.3767 91.44 0)
+			(at 331.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14664,6 +14712,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 339.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15483,7 +15540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 144.78 90)
 			(effects
 				(font
@@ -15501,7 +15558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -15510,7 +15567,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 114.046 97.028 0)
 			(effects
 				(font
@@ -15528,7 +15585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 114.046 97.028 0)
 			(effects
 				(font
@@ -15740,7 +15797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 139.7 90)
 			(effects
 				(font
@@ -15758,7 +15815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 176.53 139.7 0)
 			(effects
 				(font
@@ -15767,7 +15824,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 161.036 91.948 0)
 			(effects
 				(font
@@ -15785,7 +15842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 161.036 91.948 0)
 			(effects
 				(font
@@ -15863,6 +15920,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18f05b9d-61e5-48bd-9566-529238de4d9b")
 		)
@@ -15925,6 +15991,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 339.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17022,6 +17097,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23182"
+			(at 331.47 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6786e17-5c76-4ba6-bb50-c5af6c1bf8a1")
 		)
@@ -17042,9 +17126,9 @@
 		(at 102.87 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e53e4e95-e52f-4fa1-b087-369641664511")
 		(property "Reference" "J2"
 			(at 98.298 50.8 0)
@@ -17281,6 +17365,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4230d77b-dc97-4166-805d-ab54c3acbb71")
 		)
@@ -17368,7 +17461,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "ebeb2d2f-6473-45b2-99a8-8a424990d614")
 		(property "Reference" "TP6"
@@ -17463,7 +17556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_APA1606_1.6x0.6mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -17472,7 +17565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2211030000_XINGLIGHT-XL-1606SURC_C965860.pdf"
+		(property "Datasheet" ""
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -17481,7 +17574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 260mcd Colorless and transparent Side sticker -20℃~+85℃ 615nm~630nm Red 120° 50mW 2.4V SMD,1.1x1.7mm LED Indication - Discrete ROHS"
+		(property "Description" ""
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -17499,7 +17592,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C965860"
+		(property "JLCPCB Part #" "C2286"
 			(at 146.812 79.502 0)
 			(effects
 				(font
@@ -17508,7 +17601,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "XINGLIGHT"
+		(property "MANUFACTURER" "Hubei "
 			(at 188.722 68.58 0)
 			(effects
 				(font
@@ -17517,7 +17610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XL-1606SURC"
+		(property "Manufacturer_Part_Number" "KT-0603R"
 			(at 143.764 79.756 0)
 			(effects
 				(font
@@ -17588,6 +17681,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 339.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1779"
+			(at 339.09 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,7 +17889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.622 121.92 90)
 			(effects
 				(font
@@ -17805,7 +17907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -17814,7 +17916,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
+		(property "JLCPCB Part #" "C25804"
 			(at 136.906 74.168 0)
 			(effects
 				(font
@@ -17832,7 +17934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0603WAF1002T5E"
 			(at 136.906 74.168 0)
 			(effects
 				(font
@@ -17862,7 +17964,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f0df8ef3-75d8-4bfa-bd2d-55bfe9fc96dd")
@@ -18286,7 +18388,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f5f95472-be9b-4381-a631-09fb5f8a29bb")
@@ -18640,71 +18742,6 @@
 			(project "TankHull"
 				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 55.88 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff965e31-23f9-48a8-9919-85883d7d7c34")
-		(property "Reference" "#PWR02"
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_HULL"
-			(at 48.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2b1af8e-822b-4956-9bd1-c4da6af365e4")
-		)
-		(instances
-			(project "TankHull"
-				(path "/39d4946a-74a0-412b-8dfb-423b23371da5"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
