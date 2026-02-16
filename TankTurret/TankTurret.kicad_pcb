@@ -2188,7 +2188,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 2.6 -0.05 0)
+			(at 1.05 1.05 0)
 			(layer "F.SilkS")
 			(uuid "2c79d5ff-79e3-4b42-b6cf-cd9501672e76")
 			(effects
@@ -17863,7 +17863,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J5"
-			(at 2.05 -2.85 90)
+			(at 1.1 -4.7 90)
 			(layer "F.SilkS")
 			(uuid "89ac5bb6-e518-4a9a-a640-608043874c95")
 			(effects
@@ -18685,7 +18685,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 66.75 47.3 90)
+		(at 66.6 47.7 90)
 		(layer "F.SilkS" knockout)
 		(uuid "c4ae1628-f208-4c90-9004-594dc488f33b")
 		(effects
