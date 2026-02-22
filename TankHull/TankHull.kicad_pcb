@@ -3464,7 +3464,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "8ecda614-5b14-4b7a-9df1-1391b60ce9f1")
 		)
 		(pad "17" thru_hole circle
 			(at -1 0.6)
@@ -3476,7 +3476,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "df95d1eb-b931-4718-a9f2-55e573f2eb1c")
 		)
 		(pad "17" thru_hole circle
 			(at -1 1.8)
@@ -3488,7 +3488,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "a3dda87c-de8e-4ae1-af0f-59dc641036c2")
 		)
 		(pad "17" thru_hole circle
 			(at 0 -1.8)
@@ -3500,7 +3500,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "ab6a66c0-1be0-4111-b150-33975fc7f491")
 		)
 		(pad "17" thru_hole circle
 			(at 0 -0.6)
@@ -3512,7 +3512,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "eb69d504-2253-4a05-80d0-d1830b8d3fb6")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -3523,7 +3523,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "ef4181b0-c214-484a-897a-80735f353f08")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -3534,7 +3534,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "b2902703-ae31-405c-af14-acc8cb84fa33")
 		)
 		(pad "17" thru_hole circle
 			(at 0 0.6)
@@ -3546,7 +3546,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "82f4dcdb-5604-4494-867f-f7c46510e5f3")
 		)
 		(pad "17" thru_hole circle
 			(at 0 1.8)
@@ -3558,7 +3558,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "6dd39287-c8d9-47d3-bbfd-d1c9ab5f9d23")
 		)
 		(pad "17" thru_hole circle
 			(at 1 -1.8)
@@ -3570,7 +3570,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "43efa317-ddcf-46c6-9b00-999457a4e75c")
 		)
 		(pad "17" thru_hole circle
 			(at 1 -0.6)
@@ -3582,7 +3582,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "16c6b84c-b4b1-4cd8-9c69-5ca29af5b253")
 		)
 		(pad "17" thru_hole circle
 			(at 1 0.6)
@@ -3594,7 +3594,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "890fea2c-daa2-4e13-b026-1dc0f20c78dc")
 		)
 		(pad "17" thru_hole circle
 			(at 1 1.8)
@@ -3606,7 +3606,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "56a8cb67-3331-45ac-ac14-43776f993629")
+			(uuid "5810573a-77ee-4c44-a16a-d2461d0dadc6")
 		)
 		(embedded_fonts no)
 		(model "F:/Data/Thundergeddon/KiCad/Libraries/easyeda2kicad.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
@@ -7734,7 +7734,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "1e773c4f-f083-4bfa-aafb-b5d602856df9")
 		)
 		(pad "17" thru_hole circle
 			(at -1 0.6)
@@ -7746,7 +7746,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "183f92dd-567c-4494-b8a6-85c7e8b50113")
 		)
 		(pad "17" thru_hole circle
 			(at -1 1.8)
@@ -7758,7 +7758,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "0092e675-75db-4f77-b25b-3f160a5948f7")
 		)
 		(pad "17" thru_hole circle
 			(at 0 -1.8)
@@ -7770,7 +7770,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "5f1e7dd1-b23e-49e0-bc8e-4b790cbae612")
 		)
 		(pad "17" thru_hole circle
 			(at 0 -0.6)
@@ -7782,7 +7782,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "e8201fb2-9806-4247-97c4-d739bc6ccfe9")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -7793,7 +7793,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "2efabe0f-9451-49c6-a6f3-1fc5dc44fee7")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -7804,7 +7804,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "8bd70d24-9fcd-4d8e-a75e-ecec848c4d37")
 		)
 		(pad "17" thru_hole circle
 			(at 0 0.6)
@@ -7816,7 +7816,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "de49cff3-b5d6-47da-9c19-1456c0441195")
 		)
 		(pad "17" thru_hole circle
 			(at 0 1.8)
@@ -7828,7 +7828,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "f18c2583-5120-4668-9326-ab64908cace5")
 		)
 		(pad "17" thru_hole circle
 			(at 1 -1.8)
@@ -7840,7 +7840,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "34270788-de42-45e4-acdd-079e6b6e7188")
 		)
 		(pad "17" thru_hole circle
 			(at 1 -0.6)
@@ -7852,7 +7852,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "43a23e5e-d9e7-4bb2-b0ec-d050f1d935f2")
 		)
 		(pad "17" thru_hole circle
 			(at 1 0.6)
@@ -7864,7 +7864,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "61fad955-b6fc-4ff1-9662-28054f3760a3")
 		)
 		(pad "17" thru_hole circle
 			(at 1 1.8)
@@ -7876,7 +7876,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "0b0116f9-bcab-42b7-a5bf-beb2afd39e50")
+			(uuid "e5fd390f-9b3b-4ca5-a953-07566366cc70")
 		)
 		(embedded_fonts no)
 		(model "F:/Data/Thundergeddon/KiCad/Libraries/easyeda2kicad.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
