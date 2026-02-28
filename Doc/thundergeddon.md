@@ -16,8 +16,15 @@
 
 ## To-do
 
+V0.2
+
 - [ ] Test reverse polarity protection
 - [ ] Add hull board LED on spare GPIO
+
+V0.3
+
+- [ ] Maybe: Stable voltage for motors
+- [ ] Maybe: NFC reader
 
 
 
@@ -37,6 +44,7 @@ The hull board connects to the battery, motors, IR receivers and turret board vi
 
 Two 18350 li-ion batteries power the robot
 
+* 2S Pack (7.4V nominal)
 * Connected via a JST XH 2-pin connector (J2 C158012)
 * Positive terminal connected to Q1 source pin via 1.2mm width copper trace
 * Negative connects to GND
@@ -48,7 +56,7 @@ I use a P-channel MOSFET to protect the board from reversed batteries (Q1 C15127
 + **Source** connects to J2
 
 - **Drain** connects to C15 via 1.2mm width copper trace
-- **Gate** connects to GND via inline 100kΩ capacitor (R4 C25803)
+- **Gate** connects to GND via inline 100kΩ resistor (R4 C25803)
 - Source and drain both have an an area of copper under them around 5mm×5mm with several vias to a similar size area on the other side of the board
 
 #### **Bulk Capacitor**
@@ -103,7 +111,9 @@ PCA9555PW is used to provide GPIOs for motor control and IR receivers (U8 C12839
 | 1_4  | Motors Sleep           | n/a                  |
 | 1_5  | Right Motor Control 2  | n/a                  |
 | 1_6  | Right Motor Control 1  | n/a                  |
-| 1_7  | No connection          | n/a                  |
+| 1_7  | LED                    | n/a                  |
+
+The LED (D4 C2297) on 1_7 will enable testing the PCA9555 and has an inline 220Ω (R28 C22962).  
 
 #### Motor Drivers
 
@@ -114,9 +124,12 @@ Motor Controller DRV8833PWP (U2 C50506) controls the right track.
 * VM connects to +BATT
   * Decoupling capacitors 100nf (C4 C14663) and 10uF (C5 C15850)
 * VINT bypassed to GND with 2.2uF (C3 C23630)
-* FAULT, AIN1, AIN2, AOUT1, AOUT2: no connection
+* FAULT, AOUT1, AOUT2: no connection
+* AIN1, AIN2 tied to GND
 * BIN1 connected to Right Motor Control 2
+  * 10kΩ Pull down (R26 C25804)
 * BIN2 connected to Right Motor Control 1
+  * 10kΩ Pull down (R25 C25804)
 * BOUT1 connected to Right Drive Motor 1
 * BOUT2 connected to Right Drive Motor 2
 * GND, BISEN and AISEN connected to GND
@@ -127,34 +140,42 @@ Right Drive Motor 1 and 2 connect to 2-pin JST PH (J3 C131337) which connects to
 
 ##### Left Track and Turret
 
-Motor Controller DRV8833PWP (U3 C50506) controls the right track.  
+Motor Controller DRV8833PWP (U3 C50506) controls the left track and turret.  
 
 * VM connects to +BATT
   * Decoupling capacitors 100nf (C11 C14663) and 10uF (C12 C15850)
-* VINT bypassed to GND with 2.2uF (C3 C23630)
+* VINT bypassed to GND with 2.2uF (C8 C23630)
 * FAULT: no connection
 * AIN1 connected to Turret Motor Control 1
+  * 10kΩ Pull down (R3 C25804)
 * AIN2 connected to Turret Motor Control 2
-* AOUT1 connected to Turret Motor Control 2
-* AOUT2 connected to Turret Motor Control 1
+  * 10kΩ Pull down (R24 C25804)
+* AOUT1 connected to Turret Motor 2
+* AOUT2 connected to Turret Motor 1
 * BIN1 connected to Left Motor Control 1
+  * 10kΩ Pull down (R23 C25804)
 * BIN2 connected to Left Motor Control 2
+  * 10kΩ Pull down (R7 C25804)
 * BOUT1 connected to Left Drive Motor 1
 * BOUT2 connected to Left Drive Motor 2
 * GND, BISEN and AISEN connected to GND
 * VCP High-side gate drive voltage connects to VM via inline 0.01uF (C6 C57112)
 * SLEEP connected to MOTORS_SLEEP
 
-Left Drive Motor 1 and 2 connect to 2-pin JST PH (J5 C131337) which connects to a 050 motor with a 118:1 right-angle gearbox for driving the right track.  
+Left Drive Motor 1 and 2 connect to 2-pin JST PH (J5 C131337) which connects to a 050 motor with a 118:1 right-angle gearbox for driving the left track.  
 
 Turret Motor 1 and 2 connect to 2-pin JST PH (J4 C131337) which connects to a N20 motor with a 1030:1 right-angle gearbox for driving the turret.  
 
+##### Motors Sleep
+
+Motors sleep is connected to both motor drivers and pulled down with a 10kΩ  resistor (R27 C25804)
+
 #### IR Receivers
 
-There are eight infrared receivers IRM-V838M3-C/TR1 (C499566) at 45 degree increments, facing outwards along the edge of the board.  
+There are eight infrared receivers IRM-V838M3-C/TR1 (C3291489) at 45 degree increments, facing outwards along the edge of the board.  
 
 * OUT pin connects to a GPIO on the PCA9555
-* VCC has an inline 47Ω resistor (C23182)
+* VCC has an inline 47Ω resistor (RXX, C23182)
 * VCC is decoupled with 100nF (C14663) and 4.7uF (C1779)
 
 | GPIO Connection | IR Receiver | 100nF | 4.7uF | 47Ω  |
@@ -211,8 +232,8 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | EN     | EN Button            |
 | GPIO00 | BOOT Button          |
 | GPIO01 | Piezo Buzzer         |
-| GPIO02 | N/C                  |
-| GPIO03 | N/C                  |
+| GPIO02 | NC                   |
+| GPIO03 | NC                   |
 | GPIO04 | Camera: SIOD         |
 | GPIO05 | Camera: SIOC         |
 | GPIO06 | Camera: VSYNC        |
@@ -223,7 +244,7 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | GPIO11 | Camera: Y5           |
 | GPIO12 | Camera: Y3           |
 | GPIO13 | Camera: Y4           |
-| GPIO14 | N/C                  |
+| GPIO14 | NC                   |
 | GPIO15 | Camera: Y9           |
 | GPIO16 | Camera: XCLK         |
 | GPIO17 | Camera: Y8           |
@@ -237,11 +258,11 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | GPIO38 | External LEDs WS2812 |
 | GPIO39 | IR LED #1            |
 | GPIO40 | IR LED #2            |
-| GPIO41 | N/C                  |
-| GPIO42 | N/C                  |
-| GPIO43 | N/C                  |
-| GPIO44 | N/C                  |
-| GPIO45 | N/C                  |
+| GPIO41 | NC                   |
+| GPIO42 | NC                   |
+| GPIO43 | NC                   |
+| GPIO44 | NC                   |
+| GPIO45 | NC                   |
 | GPIO47 | I2C: SCL             |
 | GPIO48 | Blue Turret LED      |
 
@@ -257,11 +278,11 @@ The EN switch (SW2 C318884) is connected on one side to GND and the other side t
 
 ###### BOOT button
 
-The BOOT switch (SW1 C318884) is connected on one side to GND and the other side to GPIO00/BOOT on the ESP32.  Between the switch and EN there is a 100nF capacitor (C22 C14663) to GND and a 10k resistor (R15 C25804) to +3V3.  
+The BOOT switch (SW1 C318884) is connected on one side to GND and the other side to GPIO00/BOOT on the ESP32.  Between the switch and GPIO0 there is a 100nF capacitor (C22 C14663) to GND and a 10k resistor (R15 C25804) to +3V3.  
 
 ##### I2C
 
-SDA and SCL are both pulled high with 4.7kΩ resistors (SDA R19, SCL R20 C23162).  They both have 4.7k inline resistors (SDA R21, SCL R22 C23140).  
+SDA and SCL are both pulled high with 4.7kΩ resistors (SDA R19, SCL R20 C23162).  They both have 33Ω inline resistors (SDA R21, SCL R22 C23140).  
 
 #### Camera Connector
 
@@ -269,7 +290,7 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 
 | Pin  | Camera Pins | Connection   |
 | ---- | ----------- | ------------ |
-| 1    | NC          | N/C          |
+| 1    | NC          | NC           |
 | 2    | AGND        | GND          |
 | 3    | SIO_D       | GPIO04       |
 | 4    | AVDD        | CAM_AVDD_2V8 |
@@ -278,7 +299,7 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 | 7    | VSYNC       | GPIO06       |
 | 8    | PWDN        | GND          |
 | 9    | HREF        | GPIO07       |
-| 10   | DVDD        | CAM_1V2      |
+| 10   | DVDD        | CAM_1V3      |
 | 11   | DOVDD       | CAM_2V8      |
 | 12   | Y9          | GPIO15       |
 | 13   | XCLK        | GPIO16       |
@@ -291,8 +312,8 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 | 20   | Y5          | GPIO11       |
 | 21   | Y3          | GPIO12       |
 | 22   | Y4          | GPIO13       |
-| 23   | Y1          | N/C          |
-| 24   | Y0          | N/C          |
+| 23   | Y1          | NC           |
+| 24   | Y0          | NC           |
 
 * **+3V3_CLEAN**
 
@@ -347,32 +368,114 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 #### 3.3V Voltage Step Down
 
 * Step down regulator SY8113BADC (PS1 C78989)
-* EN and IN connect to C15 with a 10uF decoupling capacitor (C5 C15850)
+* EN and IN connect to +BATT a 10uF decoupling capacitor (C5 C15850)
 * FB connects to:
   * 22kΩ to GND (R4 C31850)
-  * 100kΩ (R3 C25803) to +3V3_HULL with 22pF in parallel (C7 C1653)
+  * 100kΩ (R3 C25803) to +3V3 with 22pF in parallel (C7 C1653)
 * GND connected to GND
 * BS connects to 100nf (C6 C14663) inline to LX
-* LX connects
-  * to 4.7uH inductor (L1 C167220)
+* LX connects to: 
+  * 4.7uH inductor (L1 C167220)
   * Two decoupling capacitors 100nf (C3 C14663) and 47uF (C4 C16780) after inductor
-  * Out to +3V3_HULL
+  * Out to +3V3
+* +3V3_CLEAN
+  * +3V3 branches off through a ferrite bead (FB1 C1002) with decoupling 100nF (C8 C14663) and 1uF (C9 C15849).  
 
 #### USB Connector
 
+USB-C connector (J2 C165948) for reprogramming the ESP32.  
+
+| Pin  | Connected to |      |
+| ---- | ------------ | ---- |
+| VBUS | +5V_USB      |      |
+| SBU2 | NC           |      |
+| CC1  | GND          |      |
+| DN2  | USB_D-       |      |
+| DP1  | USB_D+       |      |
+| DN1  | USB_D-       |      |
+| DP2  | USB_D+       |      |
+| SBU1 | NC           |      |
+| CC2  | GND          |      |
+| VBUS | +5V_USB      |      |
+| EH   | GND          |      |
+|      |              |      |
+
+* CC1: connected to GND through 5.1 kΩ (R2 C23186) 
+
+  CC2: connected to GND through 5.1 kΩ  (R1 C23186) 
+
+* VBUS
+
+  * 100nF (C1 C14663) and 10uF (C2 C15850) decoupling capacitors
+  * Schottky diode (D1 C8598) to prevent power flow from +BATT into USB connection.
+  * Schottky diode is oriented +5V_USB → Anode → Schottky Diode → Cathode → +BATT
+
+* USB Data
+
+  * Data lines USB_D+ and USB_D- are a differential pair
+
+  * ESD protection diode (D2 C5180302) wired as follows:
+
+    | ESD protection diode PRTR5V0U2X pin | Connection | Decoupling         |
+    | ----------------------------------- | ---------- | ------------------ |
+    | I/01                                | USB_D-     |                    |
+    | I/02                                | USB_D+     |                    |
+    | VCC                                 | +5V_USB    | 100nF (C26 C14663) |
+    | GND                                 | GND        |                    |
+
 #### Slip Ring Connector
+
+Right angle JST XH connector (J1 C157925) allows for connection to the hull board via the slip ring.  
 
 #### IR LEDs
 
+Two external 3mm through-hole 940nm IR leds will be soldered manually via ~10mm wires/or legs.  The 2.54mm 1×02 pin headers are DNP as I am just using the through holes to solder wires.  
+
+| IR LED | Connector footprint (DNP) | Inline Resistor  | Connection |
+| ------ | ------------------------- | ---------------- | ---------- |
+| #1     | J4                        | 220Ω (R6 C22962) | GPIO39     |
+| #2     | J5                        | 220Ω (R5 C22962) | GPIO40     |
+
 #### External RGB LED
+
+Six external WS2812B LEDs will be soldered manually via ~30mm wires.  The 2.54mm 1×03 pin header connector (J6) is DNP as I am just using the through holes to solder wires.  
+
+The three pins connect to +3V3, GPIO38 and GND
+
+I have four decoupling capacitors on +3V3:
+
+* 3 × 22uF (C29, C24, C18 C45783)
+* 1 × 100nf (C25 C14663)
+
+I have one 330Ω inline resistor (R14 C23138) on GPIO38.  
 
 #### Buzzer
 
+An external 3V buzzer will be soldered manually via ~30mm wires.  The  The 2.54mm 1×02 pin header (J3) is DNP as I am just using the through holes to solder wires.  
+
+The two pins are connected to +3V3 and a MMBT3904 transistor (Q1 C20526).  
+
+The transistor pins are connected as follows:
+
+| MMBT3904 Pin |           |       |
+| ------------ | --------- | ----- |
+| 1            | Base      | GPIO1 |
+| 2            | Emitter   | GND   |
+| 3            | Collector | J3    |
+
+The connection to GPIO1 has an inline 1KΩ resistor (R8 C21190) and is pulled low with a 100kΩ resistor (R9 C25803)
+
 #### Status LEDs
+
+I have a red LED (D3 C2286) to show battery power. 
++BATT → Inline 10kΩ (R17 C25804) → Anode → LED → Cathode → GND
+
+I have a green LED (D4 C2297) to control from GPIO48.  
++3V3 → Inline 1kΩ (R18 C21190) → Anode → LED → Cathode → GPIO48
 
 #### Antenna
 
-#### 
+I will connect an external antenna via the IPX connector on the ESP32.  
 
 ------
 

@@ -5996,6 +5996,12 @@
 		(uuid "7ed6a332-7d52-4d39-823b-12f8b59c832b")
 	)
 	(junction
+		(at 33.02 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85daef23-690b-4f78-add6-ea5a1b9bc7e4")
+	)
+	(junction
 		(at 78.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6030,6 +6036,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8de38fa5-6dda-4cc1-bc2c-812d2c2a7d95")
+	)
+	(junction
+		(at 104.14 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92eef127-f87f-4cc8-bd96-167e2444bc8e")
 	)
 	(junction
 		(at 311.15 74.93)
@@ -6068,10 +6080,10 @@
 		(uuid "b100b055-c7d6-4b9c-97ed-d8406898594e")
 	)
 	(junction
-		(at 69.85 218.44)
+		(at 68.58 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9b83e9a-99a1-4ba7-a389-797d21e71a8a")
+		(uuid "b696f6d7-be89-459b-a994-cd6b99bbe217")
 	)
 	(junction
 		(at 125.73 245.11)
@@ -6156,12 +6168,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8aa951-a7c1-400b-a778-29acf97a08ad")
-	)
-	(junction
-		(at 31.75 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee4f4c64-458a-4559-8c3a-c3435a9e4b81")
 	)
 	(junction
 		(at 44.45 200.66)
@@ -6286,6 +6292,16 @@
 			(type default)
 		)
 		(uuid "0006e538-a6d1-4286-b4a8-d1a3360da24e")
+	)
+	(wire
+		(pts
+			(xy 68.58 248.92) (xy 91.44 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01368d1c-6c4d-43ae-9a17-9e6feba8dc32")
 	)
 	(wire
 		(pts
@@ -6439,7 +6455,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 213.36) (xy 31.75 224.79)
+			(xy 31.75 213.36) (xy 31.75 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6699,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 199.39) (xy 44.45 200.66)
+			(xy 44.45 198.12) (xy 44.45 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6799,7 +6815,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 218.44) (xy 69.85 213.36)
+			(xy 69.85 213.36) (xy 69.85 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7009,16 +7025,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 224.79) (xy 31.75 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46305562-1916-49f1-8e7d-b35ee39eaed9")
-	)
-	(wire
-		(pts
 			(xy 138.43 67.31) (xy 138.43 69.85)
 		)
 		(stroke
@@ -7076,6 +7082,16 @@
 			(type default)
 		)
 		(uuid "4b75ef3f-ad82-4b5c-94a6-e36703fc7149")
+	)
+	(wire
+		(pts
+			(xy 44.45 198.12) (xy 43.18 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b761667-9498-4d74-b352-b5cc7362ea8f")
 	)
 	(wire
 		(pts
@@ -7179,7 +7195,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 49.53) (xy 110.49 49.53)
+			(xy 104.14 49.53) (xy 110.49 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7329,7 +7345,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 46.99) (xy 110.49 46.99)
+			(xy 99.06 46.99) (xy 104.14 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7459,6 +7475,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 254) (xy 67.31 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67be1431-412e-4466-9022-65004c419909")
+	)
+	(wire
+		(pts
 			(xy 58.42 111.76) (xy 63.5 111.76)
 		)
 		(stroke
@@ -7489,16 +7515,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 254) (xy 67.31 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc70a25-f629-464b-b7c3-3c927d8e5e08")
-	)
-	(wire
-		(pts
 			(xy 375.92 213.36) (xy 375.92 214.63)
 		)
 		(stroke
@@ -7516,6 +7532,16 @@
 			(type default)
 		)
 		(uuid "6eb9b2e3-85f4-4355-a68a-bfa7e6b6a289")
+	)
+	(wire
+		(pts
+			(xy 104.14 46.99) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f10a44b-de9f-4f7b-8e66-8e583af0a355")
 	)
 	(wire
 		(pts
@@ -7699,6 +7725,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 46.99) (xy 104.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80420e4f-bf7b-48bc-b87e-30556effc551")
+	)
+	(wire
+		(pts
 			(xy 154.94 170.18) (xy 170.18 170.18)
 		)
 		(stroke
@@ -7746,6 +7782,16 @@
 			(type default)
 		)
 		(uuid "82e78485-b75e-4ad2-b510-4b7f5c6d0541")
+	)
+	(wire
+		(pts
+			(xy 68.58 248.92) (xy 68.58 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843be871-a09a-44c8-a645-cadb2d9c9e72")
 	)
 	(wire
 		(pts
@@ -8099,7 +8145,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 38.1 49.53)
+			(xy 29.21 49.53) (xy 33.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8329,16 +8375,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 228.6) (xy 69.85 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b008caf2-0672-4f2d-8de3-87b09d7b1b4d")
-	)
-	(wire
-		(pts
 			(xy 281.94 152.4) (xy 274.32 152.4)
 		)
 		(stroke
@@ -8526,6 +8562,16 @@
 			(type default)
 		)
 		(uuid "bc0d1e74-0ac1-487d-9e56-8ed5a3c7700f")
+	)
+	(wire
+		(pts
+			(xy 33.02 49.53) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bceaac62-c4f3-44f4-9f70-2474eee2f4fd")
 	)
 	(wire
 		(pts
@@ -8819,6 +8865,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 245.11) (xy 68.58 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5649d47-043a-4a01-9878-3eab6ac9b278")
+	)
+	(wire
+		(pts
 			(xy 149.86 69.85) (xy 149.86 62.23)
 		)
 		(stroke
@@ -9079,16 +9135,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 248.92) (xy 91.44 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59b7ba4-4698-48ad-bdfe-1724f2fae340")
-	)
-	(wire
-		(pts
 			(xy 154.94 116.84) (xy 171.45 116.84)
 		)
 		(stroke
@@ -9297,6 +9343,16 @@
 		)
 		(uuid "30696800-7a6d-488c-9d5f-017195df7180")
 	)
+	(label "+5V_USB"
+		(at 43.18 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32f4a0d3-4e4b-48ef-836f-6e985d17c6ec")
+	)
 	(label "IR #2"
 		(at 236.22 222.25 180)
 		(effects
@@ -9487,16 +9543,6 @@
 		)
 		(uuid "7083e5f9-9410-43cd-909c-20b067aa3f25")
 	)
-	(label "+5V_USB"
-		(at 87.63 248.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "721e0b0e-7ff3-49bc-9235-08aaf4b1d627")
-	)
 	(label "USB_D-"
 		(at 160.02 111.76 0)
 		(effects
@@ -9568,12 +9614,12 @@
 		(uuid "cca577b5-98cc-48fb-85f6-d3bfb72e7fc3")
 	)
 	(label "+5V_USB"
-		(at 72.39 254 0)
+		(at 68.58 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d0f3658d-5dac-400b-8021-9b8cf1a14535")
 	)
@@ -9587,7 +9633,7 @@
 		)
 		(uuid "d5e185cd-80ec-4ebf-a394-2dce2420e9f8")
 	)
-	(label "STATUS_LEDS"
+	(label "WS2812_LEDS"
 		(at 160.02 162.56 0)
 		(effects
 			(font
@@ -9637,7 +9683,7 @@
 		)
 		(uuid "e3547d87-d011-4b0b-92bb-c59618ad17aa")
 	)
-	(label "STATUS_LEDS"
+	(label "WS2812_LEDS"
 		(at 341.63 168.91 180)
 		(effects
 			(font
@@ -13865,71 +13911,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 107.95 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ad716ee-98e5-4474-8a03-70a3f0c78ec6")
-		(property "Reference" "#PWR015"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 106.934 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0fb0b10-f218-40cf-a344-8cd077ff3b48")
-		)
-		(instances
-			(project "TankTurret"
-				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 130.81 63.5 0)
 		(unit 1)
@@ -16517,71 +16498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 224.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eaebe6d-8956-419b-9af2-ef4caff91b38")
-		(property "Reference" "TP9"
-			(at 28.448 219.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 28.448 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 31.75 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "026a6042-2768-414a-bea5-f3b80c856d40")
-		)
-		(instances
-			(project "TankTurret"
-				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 104.14 0)
 		(unit 1)
@@ -16680,73 +16596,6 @@
 			(project "TankTurret"
 				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 69.85 218.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f5885f2-f332-4dcd-8c1c-5ae20bbec16f")
-		(property "Reference" "TP8"
-			(at 74.93 217.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.93 219.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 69.85 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 69.85 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce717f8e-afc9-4f61-883f-2143d01ccba7")
-		)
-		(instances
-			(project "TankTurret"
-				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -18796,6 +18645,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa7b9c8d-54ca-42a2-b458-970eefdf4143")
+		(property "Reference" "TP8"
+			(at 35.56 44.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 47.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "583e2a1b-b13e-415f-9599-2876fb542405")
+		)
+		(instances
+			(project "TankTurret"
+				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 242.57 0)
 		(unit 1)
@@ -19990,73 +19906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 44.45 199.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd52eb47-d52f-4047-92dc-5a539f0cb3ed")
-		(property "Reference" "#PWR064"
-			(at 44.45 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 41.91 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 44.45 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fb420ef-3777-49d2-a11c-d76984658904")
-		)
-		(instances
-			(project "TankTurret"
-				(path "/e16c2857-62e8-4c5c-9471-44b5f845b297"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 360.68 71.12 0)
 		(unit 1)
@@ -20436,7 +20285,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d8e2b3a4-3503-4a27-bf52-5035f2616898")
 		(property "Reference" "J1"
 			(at 57.15 49.5299 0)
@@ -20448,7 +20297,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 49.022 58.674 0)
+			(at 43.942 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20483,7 +20332,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C157925"
 			(at 55.88 49.53 0)
 			(effects
 				(font
