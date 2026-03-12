@@ -19,7 +19,7 @@
 V0.2
 
 - [ ] Test reverse polarity protection
-- [ ] Add hull board LED on spare GPIO
+- [x] Add hull board LED on spare GPIO
 
 V0.3
 
@@ -53,10 +53,10 @@ Two 18350 li-ion batteries power the robot
 
 I use a P-channel MOSFET to protect the board from reversed batteries (Q1 C15127)
 
-+ **Source** connects to J2
++ **Drain** (pad 3) connects to J2 (from battery)
 
-- **Drain** connects to C15 via 1.2mm width copper trace
-- **Gate** connects to GND via inline 100kΩ resistor (R4 C25803)
+- **Source**  (pad 2) connects to C15 via 1.2mm width copper trace (to +BATT  and robot components)
+- **Gate** (pad 1) connects to GND via inline 100kΩ resistor (R4 C25803)
 - Source and drain both have an an area of copper under them around 5mm×5mm with several vias to a similar size area on the other side of the board
 
 #### **Bulk Capacitor**
@@ -114,6 +114,8 @@ PCA9555PW is used to provide GPIOs for motor control and IR receivers (U8 C12839
 | 1_7  | LED                    | n/a                  |
 
 The LED (D4 C2297) on 1_7 will enable testing the PCA9555 and has an inline 220Ω (R28 C22962).  
+
+I have decided not to use the INT connection as it would mean an additional wire going through the slip ring.  I'll see if I can get away without using it.  
 
 #### Motor Drivers
 
@@ -191,10 +193,11 @@ There are eight infrared receivers IRM-V838M3-C/TR1 (C3291489) at 45 degree incr
 
 #### Slip Ring Connector
 
-The Slip Ring Connector is a JST XH 4-pin connector(J1 C2908602) which provides I2C and power to the turret board, through a 4-wire slip ring.  
+The Slip Ring Connector is a JST PH 5-pin connector(J1 C157993) which provides I2C and power to the turret board, through a 5-wire slip ring.  
 
 * SCL (Yellow wire)
 * SDA (Green wire)
+* INT (Orange wire)
 * GND (Black wire)
 * +BATT (Red wire)
 
@@ -214,6 +217,7 @@ The Slip Ring Connector is a JST XH 4-pin connector(J1 C2908602) which provides 
   * L CTRL 2 (TP4)
   * L DRV 1 (TP6)
   * L DRV 2 (TP7)
+  * INT (TP1)
 * Mounting Holes
   * 4 × 2.2mm holes for mounting M2 bolts
 
@@ -244,7 +248,7 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | GPIO11 | Camera: Y5           |
 | GPIO12 | Camera: Y3           |
 | GPIO13 | Camera: Y4           |
-| GPIO14 | NC                   |
+| GPIO14 | PCA9555PW INT        |
 | GPIO15 | Camera: Y9           |
 | GPIO16 | Camera: XCLK         |
 | GPIO17 | Camera: Y8           |
@@ -252,9 +256,9 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | GPIO19 | USB_D-               |
 | GPIO20 | USB_D+               |
 | GPIO21 | I2C: SDA             |
-| GPIO35 | Camera: PSRAM        |
-| GPIO36 | Camera: PSRAM        |
-| GPIO37 | Camera: PSRAM        |
+| GPIO35 | NC (Camera: PSRAM)   |
+| GPIO36 | NC (Camera: PSRAM)   |
+| GPIO37 | NC (Camera: PSRAM)   |
 | GPIO38 | External LEDs WS2812 |
 | GPIO39 | IR LED #1            |
 | GPIO40 | IR LED #2            |
@@ -264,7 +268,7 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | GPIO44 | NC                   |
 | GPIO45 | NC                   |
 | GPIO47 | I2C: SCL             |
-| GPIO48 | Blue Turret LED      |
+| GPIO48 | Green Turret LED     |
 
 The +3V3 connection on the ESP32 is decoupled with two capacitors, 10uF (C28 C15850) and 100nF (C27 C14663).  
 
@@ -278,11 +282,15 @@ The EN switch (SW2 C318884) is connected on one side to GND and the other side t
 
 ###### BOOT button
 
-The BOOT switch (SW1 C318884) is connected on one side to GND and the other side to GPIO00/BOOT on the ESP32.  Between the switch and GPIO0 there is a 100nF capacitor (C22 C14663) to GND and a 10k resistor (R15 C25804) to +3V3.  
+The BOOT switch (SW1 C318884) is connected on one side to GND and the other side to GPIO00/BOOT on the ESP32.  Between the switch and GPIO0 there is a 10k resistor (R15 C25804) to +3V3.  
 
 ##### I2C
 
 SDA and SCL are both pulled high with 4.7kΩ resistors (SDA R19, SCL R20 C23162).  They both have 33Ω inline resistors (SDA R21, SCL R22 C23140).  
+
+##### INT
+
+INT connects from GPIO14 to INT on the PCA9555PW on the hull via the Slip Ring.  The line is pulled high with a 4.7k (R25 C23162)
 
 #### Camera Connector
 
@@ -290,7 +298,7 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 
 | Pin  | Camera Pins | Connection   |
 | ---- | ----------- | ------------ |
-| 1    | NC          | NC           |
+| 1    | STROBE      | NC           |
 | 2    | AGND        | GND          |
 | 3    | SIO_D       | GPIO04       |
 | 4    | AVDD        | CAM_AVDD_2V8 |
@@ -385,20 +393,19 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 
 USB-C connector (J2 C165948) for reprogramming the ESP32.  
 
-| Pin  | Connected to |      |
-| ---- | ------------ | ---- |
-| VBUS | +5V_USB      |      |
-| SBU2 | NC           |      |
-| CC1  | GND          |      |
-| DN2  | USB_D-       |      |
-| DP1  | USB_D+       |      |
-| DN1  | USB_D-       |      |
-| DP2  | USB_D+       |      |
-| SBU1 | NC           |      |
-| CC2  | GND          |      |
-| VBUS | +5V_USB      |      |
-| EH   | GND          |      |
-|      |              |      |
+| Pin  | Connected to |
+| ---- | ------------ |
+| VBUS | +5V_USB      |
+| SBU2 | NC           |
+| CC1  | GND          |
+| DN2  | USB_D-       |
+| DP1  | USB_D+       |
+| DN1  | USB_D-       |
+| DP2  | USB_D+       |
+| SBU1 | NC           |
+| CC2  | GND          |
+| VBUS | +5V_USB      |
+| EH   | GND          |
 
 * CC1: connected to GND through 5.1 kΩ (R2 C23186) 
 
@@ -409,6 +416,7 @@ USB-C connector (J2 C165948) for reprogramming the ESP32.
   * 100nF (C1 C14663) and 10uF (C2 C15850) decoupling capacitors
   * Schottky diode (D1 C8598) to prevent power flow from +BATT into USB connection.
   * Schottky diode is oriented +5V_USB → Anode → Schottky Diode → Cathode → +BATT
+  * I have found in testing that the USB is powerful enough to drive the motors, so I'm not worried about USB back powering the whole +BATT net.  
 
 * USB Data
 
@@ -423,9 +431,13 @@ USB-C connector (J2 C165948) for reprogramming the ESP32.
     | VCC                                 | +5V_USB    | 100nF (C26 C14663) |
     | GND                                 | GND        |                    |
 
+  * There are two 22Ω series resistors on the D+ (R24 C25092) and D- (R23 C25092) lines.  
+
+* I will only be using the USB connection for programming the ESP32 at first, then switch to OTA programming.  I will not be running the motors while on USB power.  I am aware that D1 will reduce the voltage potentially as low as 4.5V which may be marginal for the SY8113B input.  I will take that risk to keep things simple.  
+
 #### Slip Ring Connector
 
-Right angle JST XH connector (J1 C157925) allows for connection to the hull board via the slip ring.  
+Right angle JST PH 5 pin connector (J1 C157923) allows for connection to the hull board via the slip ring.  
 
 #### IR LEDs
 
@@ -449,9 +461,11 @@ I have four decoupling capacitors on +3V3:
 
 I have one 330Ω inline resistor (R14 C23138) on GPIO38.  
 
+The WS2812B require 5V, however I have tested the LEDs at 3.3V and they appear to work perfectly well with an excellent level of brightness.  
+
 #### Buzzer
 
-An external 3V buzzer will be soldered manually via ~30mm wires.  The  The 2.54mm 1×02 pin header (J3) is DNP as I am just using the through holes to solder wires.  
+An external 3V piezo buzzer (not inductive/magnetic) will be soldered manually via ~30mm wires.  The  The 2.54mm 1×02 pin header (J3) is DNP as I am just using the through holes to solder wires.  
 
 The two pins are connected to +3V3 and a MMBT3904 transistor (Q1 C20526).  
 
@@ -476,6 +490,24 @@ I have a green LED (D4 C2297) to control from GPIO48.
 #### Antenna
 
 I will connect an external antenna via the IPX connector on the ESP32.  
+
+#### Test Points
+
+- TP1 - +3V3
+- TP2 - +3V3 CLEAN
+- TP3 - +BATT
+- TP4 - CAM 2V8
+- TP5 - CAM 1V3
+- TP6 - GND
+- TP7 - USB 5V
+- TP8 - GND
+- TP10 - CAM XCLK
+- TP11 - I2C SDA
+- TP12 - I2C SCL
+- TP13 - BUZZER
+- TP14 - IR LED 1
+- TP15 - IR LED 2
+- TP16 - TOP LED
 
 ------
 

@@ -15,7 +15,7 @@
 "J7","1","Conn_01x05","DNP","Excluded from BOM","","Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical","~","C50950","BOOMELE","2.54mm Single Row 5P Direct Insert 1x5P Plugin,P=2.54mm Female Headers ROHS","2.54-1*5PFemale"
 "L1","1","4.7uH","","","","Inductor_SMD:L_Changjiang_FXL0630","~","C167220","cjiang ","6A 4.7uH Integrated molded inductor ±20% 9A SMD,6.6x7mm Power Inductors ROHS","FXL0630-4R7-M"
 "PS1","1","SY8113BADC","","","","Thundergeddon:SOT95P285X100-6N","https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY8113BADC_C78989.pdf","C78989","Silergy Corp","High Efficiency, 500kHz, 3A, 18V Input Synchronous Step Down Regulator","SY8113BADC"
-"Q1","1","Q_PMOS","","","","Package_TO_SOT_SMD:SOT-23-3","https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf","C15127","Alpha & Omega","30V 4A 44mΩ@10V,4.3A 1.4W 1.3V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS","AO3401A"
+"Q2","1","AO3401A","","","","EasyEDA2Kicad:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR","https://lcsc.com/product-detail/MOSFET_AOS_AO3401A_AO3401A_C15127.html","","","",""
 "R1,R2,R5,R6,R12,R20,R21,R22","8","47Ω","","","","Resistor_SMD:R_0603_1608Metric","~","C23182","","Resistor",""
 "R3,R7,R8,R9,R10,R11,R13,R14,R18,R19,R23,R24,R25,R26,R27","15","10kΩ","","","","Resistor_SMD:R_0603_1608Metric","~","C25804","UNI-ROYAL","-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS","0603WAF1002T5E"
 "R4,R15","2","100kΩ","","","","Resistor_SMD:R_0603_1608Metric","~","C25803","UNI-ROYAL","100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 100kΩ 0603 Chip Resistor - Surface Mount ROHS","0603WAF1003T5E"

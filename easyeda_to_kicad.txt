@@ -1,0 +1,7 @@
+
+
+
+
+easyeda2kicad --full --lcsc_id=C15127 --output F:/Data/Thundergeddon/KiCad/Libraries/easyeda2kicad
+
+C15127
