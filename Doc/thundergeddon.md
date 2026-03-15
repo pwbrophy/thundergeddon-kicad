@@ -12,19 +12,24 @@
   * Robots body is 3d printed PLA, created in OnShape
   * Electronics designed in KiCad, manufactured by JLC PCB
   
+  The prototype electronics are designed to be simple, rather than fully featured e.g. I have left out charging.
+  
 * **Digital side (Unity app):** discovers/hosts robots on Wi-Fi (UDP discovery + WebSocket control), lets you select and drive a tank with an on-screen joystick, shows a live video feed per robot, and runs **turn-based rules** like player/alliance turns, action points, and a coordinated “shoot” sequence.
 
 ## To-do
 
 V0.2
 
-- [ ] Test reverse polarity protection
+- [x] Test reverse polarity protection
 - [x] Add hull board LED on spare GPIO
 
 V0.3
 
-- [ ] Maybe: Stable voltage for motors
-- [ ] Maybe: NFC reader
+- [ ] Stable voltage for motors
+- [ ] NFC reader for capture points
+- [ ] Battery charging via USB
+- [ ] Turret 5V for LEDs
+- [ ] More robust USB power input
 
 
 
@@ -46,14 +51,14 @@ Two 18350 li-ion batteries power the robot
 
 * 2S Pack (7.4V nominal)
 * Connected via a JST XH 2-pin connector (J2 C158012)
-* Positive terminal connected to Q1 source pin via 1.2mm width copper trace
+* Positive terminal connected to Q2 drain (pad 3) via 1.2mm width copper trace
 * Negative connects to GND
 
 #### **Reverse Polarity Protection**
 
-I use a P-channel MOSFET to protect the board from reversed batteries (Q1 C15127)
+I use a P-channel MOSFET to protect the board from reversed batteries (Q2 C15127)
 
-+ **Drain** (pad 3) connects to J2 (from battery)
++ **Drain** (pad 3) connects to VBAT_RAW/J2 (from battery)
 
 - **Source**  (pad 2) connects to C15 via 1.2mm width copper trace (to +BATT  and robot components)
 - **Gate** (pad 1) connects to GND via inline 100kΩ resistor (R4 C25803)
@@ -77,7 +82,8 @@ I'm using a 220uF bulk capacitor (C15 C2887273).
 * EN and IN connect to C15 with a 10uF decoupling capacitor to GND (C10 C15850)
 * FB connects to:
   * 22kΩ to GND (R16 C31850)
-  * 100kΩ (to +3V3_HULL with 22pF in parallel (C14 C1653)
+  * 100kΩ to +3V3 (R15 C25803)
+  * 22pF to +3V3 (C14 C1653) 
 * GND connected to GND
 * BS connects to 100nf (C13 C14663) inline to LX
 * LX connects
@@ -90,7 +96,7 @@ I'm using a 220uF bulk capacitor (C15 C2887273).
 PCA9555PW is used to provide GPIOs for motor control and IR receivers (U8 C128392).  
 
 * SCL and SDA connect to slip ring (pull ups are on the turret board)
-* INT no connection
+* INT connects to GPIO14 on the ESP32 in the turret via the slip ring.  
 * A0, A1, A2 connect to GND
 * VSS to GND
 
@@ -114,8 +120,6 @@ PCA9555PW is used to provide GPIOs for motor control and IR receivers (U8 C12839
 | 1_7  | LED                    | n/a                  |
 
 The LED (D4 C2297) on 1_7 will enable testing the PCA9555 and has an inline 220Ω (R28 C22962).  
-
-I have decided not to use the INT connection as it would mean an additional wire going through the slip ring.  I'll see if I can get away without using it.  
 
 #### Motor Drivers
 
@@ -259,7 +263,7 @@ I'm using an ESP32-S3-WROOM-1U-N16R8 (U1 C3013946) which has an IPX connector fo
 | GPIO35 | NC (Camera: PSRAM)   |
 | GPIO36 | NC (Camera: PSRAM)   |
 | GPIO37 | NC (Camera: PSRAM)   |
-| GPIO38 | External LEDs WS2812 |
+| GPIO38 | External WS2812 LEDs |
 | GPIO39 | IR LED #1            |
 | GPIO40 | IR LED #2            |
 | GPIO41 | NC                   |
@@ -286,7 +290,7 @@ The BOOT switch (SW1 C318884) is connected on one side to GND and the other side
 
 ##### I2C
 
-SDA and SCL are both pulled high with 4.7kΩ resistors (SDA R19, SCL R20 C23162).  They both have 33Ω inline resistors (SDA R21, SCL R22 C23140).  
+SDA and SCL are both pulled high with 4.7kΩ resistors (SDA R19, SCL R20 C23162).  They both have 33Ω inline resistors (SDA R21, SCL R22 C25105).  
 
 ##### INT
 
@@ -379,7 +383,8 @@ I am to connect an OV2640 camera module via the camera connector (FPC1 C262643).
 * EN and IN connect to +BATT a 10uF decoupling capacitor (C5 C15850)
 * FB connects to:
   * 22kΩ to GND (R4 C31850)
-  * 100kΩ (R3 C25803) to +3V3 with 22pF in parallel (C7 C1653)
+  * 100kΩ to +3V3 (R3 C25803)
+  * 22pF to +3V3 (C7 C1653) 
 * GND connected to GND
 * BS connects to 100nf (C6 C14663) inline to LX
 * LX connects to: 
@@ -417,6 +422,7 @@ USB-C connector (J2 C165948) for reprogramming the ESP32.
   * Schottky diode (D1 C8598) to prevent power flow from +BATT into USB connection.
   * Schottky diode is oriented +5V_USB → Anode → Schottky Diode → Cathode → +BATT
   * I have found in testing that the USB is powerful enough to drive the motors, so I'm not worried about USB back powering the whole +BATT net.  
+    I will only be using the USB connection for programming the ESP32 at first, then switch to OTA programming.  I will not be running the motors while on USB power.  I am aware that D1 will reduce the voltage potentially as low as 4.5V which may be marginal for the SY8113B input.  I will take that risk to keep things simple.  
 
 * USB Data
 
@@ -433,7 +439,6 @@ USB-C connector (J2 C165948) for reprogramming the ESP32.
 
   * There are two 22Ω series resistors on the D+ (R24 C25092) and D- (R23 C25092) lines.  
 
-* I will only be using the USB connection for programming the ESP32 at first, then switch to OTA programming.  I will not be running the motors while on USB power.  I am aware that D1 will reduce the voltage potentially as low as 4.5V which may be marginal for the SY8113B input.  I will take that risk to keep things simple.  
 
 #### Slip Ring Connector
 
@@ -482,7 +487,7 @@ The connection to GPIO1 has an inline 1KΩ resistor (R8 C21190) and is pulled lo
 #### Status LEDs
 
 I have a red LED (D3 C2286) to show battery power. 
-+BATT → Inline 10kΩ (R17 C25804) → Anode → LED → Cathode → GND
++BATT → Inline 2.2kΩ (R17 C25804) → Anode → LED → Cathode → GND
 
 I have a green LED (D4 C2297) to control from GPIO48.  
 +3V3 → Inline 1kΩ (R18 C21190) → Anode → LED → Cathode → GPIO48
@@ -513,4 +518,10 @@ I will connect an external antenna via the IPX connector on the ESP32.
 
 ### Software
 
-### 
+#### **Unity program:**
+
+ The Unity app is the **main controller for the game**. It finds the robots, keeps track of players/turns/game state, shows the UI and video feeds, and sends movement, turret, motor, and shooting commands to the robots.
+
+#### **ESP32 code:**
+
+ The ESP32 code is the **robot-side controller**. It connects to Unity over the network, receives commands, drives the hardware (motors, turret, LEDs, camera, IR), and sends status, heartbeats, hit data, and video back to Unity.

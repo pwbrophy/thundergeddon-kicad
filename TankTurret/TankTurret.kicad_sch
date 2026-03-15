@@ -7263,6 +7263,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 237.49) (xy 106.68 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560ab9c3-2dc2-46de-8034-75aa47faf731")
+	)
+	(wire
+		(pts
 			(xy 297.18 102.87) (xy 303.53 102.87)
 		)
 		(stroke
@@ -8503,6 +8513,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 234.95) (xy 106.68 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3076c04-7e83-4fac-9aab-4c32e62ae3e4")
+	)
+	(wire
+		(pts
 			(xy 128.27 30.48) (xy 135.89 30.48)
 		)
 		(stroke
@@ -9352,7 +9372,7 @@
 		(uuid "12edde4a-f45b-4f29-a137-96861fc79ed2")
 	)
 	(label "USB_D-"
-		(at 105.41 229.87 180)
+		(at 101.6 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9372,7 +9392,7 @@
 		(uuid "19727418-54da-4164-93d7-a58d8e110a38")
 	)
 	(label "USB_D+"
-		(at 105.41 232.41 180)
+		(at 101.6 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9382,7 +9402,7 @@
 		(uuid "1d43b895-6106-4a7e-9e47-2595185c41a2")
 	)
 	(label "USB_D+"
-		(at 106.68 237.49 180)
+		(at 101.6 237.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9892,7 +9912,7 @@
 		(uuid "f322a876-07bf-4fd2-8644-066dfab5d217")
 	)
 	(label "USB_D-"
-		(at 106.68 234.95 180)
+		(at 101.6 234.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11742,7 +11762,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23140"
+		(property "JLCPCB Part #" "C25105"
 			(at 197.358 194.818 0)
 			(effects
 				(font
@@ -11769,7 +11789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "FPC1:XCLK series to GPIO15"
+		(property "Notes" "Series Resistor SCL"
 			(at 176.53 170.18 90)
 			(effects
 				(font
@@ -12635,7 +12655,7 @@
 		(at 384.81 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -13477,9 +13497,9 @@
 		(at 287.02 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46128a56-61dd-45ce-a60e-d263975239b2")
 		(property "Reference" "J3"
@@ -14577,7 +14597,7 @@
 		(at 280.67 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -15460,7 +15480,7 @@
 		(at 280.67 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -18005,7 +18025,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25879"
+		(property "JLCPCB Part #" "C4190"
 			(at 370.078 237.998 0)
 			(effects
 				(font
@@ -19376,7 +19396,7 @@
 		(dnp no)
 		(uuid "b65ba1db-d813-44c7-89fa-e1d8c89c598a")
 		(property "Reference" "R23"
-			(at 84.328 227.838 90)
+			(at 83.058 227.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20072,7 +20092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "FPC1:XCLK series to GPIO15"
+		(property "Notes" "FPC1:XCLK series to GPIO16"
 			(at 265.43 54.61 90)
 			(effects
 				(font
@@ -20923,7 +20943,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23140"
+		(property "JLCPCB Part #" "C25105"
 			(at 197.358 184.658 0)
 			(effects
 				(font
@@ -20950,7 +20970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "FPC1:XCLK series to GPIO15"
+		(property "Notes" "Series Resistor SDA"
 			(at 176.53 160.02 90)
 			(effects
 				(font

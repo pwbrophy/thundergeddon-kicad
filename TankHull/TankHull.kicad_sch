@@ -6280,6 +6280,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 227.33) (xy 69.85 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf31469-76ba-4dc5-aef0-0f6fcdf8f529")
+	)
+	(wire
+		(pts
 			(xy 54.61 74.93) (xy 58.42 74.93)
 		)
 		(stroke
@@ -6440,16 +6450,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 217.17) (xy 234.95 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0ac5b6-494a-4482-a02b-0852d05f8d98")
-	)
-	(wire
-		(pts
 			(xy 346.71 107.95) (xy 346.71 109.22)
 		)
 		(stroke
@@ -6517,6 +6517,16 @@
 			(type default)
 		)
 		(uuid "c21d3e9f-9d85-47b2-bc88-923f4e6a1055")
+	)
+	(wire
+		(pts
+			(xy 234.95 217.17) (xy 234.95 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dc69cd-90ab-4d2d-8a89-636a5aaa5a70")
 	)
 	(wire
 		(pts
@@ -7429,7 +7439,7 @@
 		(uuid "aea6da00-5267-4744-a152-6c2ffcf30589")
 	)
 	(label "Motors Sleep"
-		(at 69.85 227.33 180)
+		(at 64.77 227.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8971,7 +8981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220Ω"
 			(at 112.014 166.37 90)
 			(effects
 				(font
@@ -11183,8 +11193,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15127"
+		(property "LCSC Part" ""
 			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15127"
+			(at 147.32 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XH-4A"
+		(property "Manufacturer_Part_Number" ""
 			(at 74.422 40.894 0)
 			(effects
 				(font
