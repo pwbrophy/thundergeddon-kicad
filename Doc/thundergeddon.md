@@ -25,11 +25,14 @@ V0.2
 
 V0.3
 
-- [ ] Stable voltage for motors
+- [ ] Polyfuse on battery
+- [ ] Stable voltage for motors - consistent tank speed as battery voltage drops
 - [ ] NFC reader for capture points
 - [ ] Battery charging via USB
 - [ ] Turret 5V for LEDs
 - [ ] More robust USB power input
+- [ ] Speaker sound instead of buzzer: I2S + MAX98357A
+- [ ] Vertical turret motor; move turret backwards
 
 
 

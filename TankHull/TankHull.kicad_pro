@@ -762,7 +762,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "TankHull.stl",
+      "step": "TankHull.step",
       "svg": "",
       "vrml": ""
     },
